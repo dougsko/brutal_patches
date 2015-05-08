@@ -1,4 +1,4 @@
-== README
+== Brutal Patches
 
 This application is a Ruby on Rails version of Brady Jacobsen's
 MicroBrute Patch Configurator.  The original version can be found at
