@@ -1,0 +1,95 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Patches</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Sub-fifth</th>
+            <th>Overtone</th>
+            <th>Ultra-saw</th>
+            <th>Saw</th>
+            <th>Pulse-width</th>
+            <th>Square</th>
+            <th>Metalizer</th>
+            <th>Triangle</th>
+            <th>Cutoff</th>
+            <th>Mode</th>
+            <th>Resonance</th>
+            <th>Env-amt</th>
+            <th>Brute-factor</th>
+            <th>Kbd-tracking</th>
+            <th>Modmatrix</th>
+            <th>Octave</th>
+            <th>Volume</th>
+            <th>Glide</th>
+            <th>Mod-wheel</th>
+            <th>Amount</th>
+            <th>Wave</th>
+            <th>Rate</th>
+            <th>Sync</th>
+            <th>Env-amt-2</th>
+            <th>Vca</th>
+            <th>Attack</th>
+            <th>Decay</th>
+            <th>Sustain</th>
+            <th>Release</th>
+            <th>Pattern</th>
+            <th>Play</th>
+            <th>Rate-2</th>
+            <th colspan="3"></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <% @patches.each do |patch| %>
+            <tr>
+                <td><%= patch.id %></td>
+                <td><%= patch.title %></td>
+                <td><%= patch.description %></td>
+                <td><%= patch.sub_fifth %></td>
+                <td><%= patch.overtone %></td>
+                <td><%= patch.ultra_saw %></td>
+                <td><%= patch.saw %></td>
+                <td><%= patch.pulse_width %></td>
+                <td><%= patch.square %></td>
+                <td><%= patch.metalizer %></td>
+                <td><%= patch.triangle %></td>
+                <td><%= patch.cutoff %></td>
+                <td><%= patch.mode %></td>
+                <td><%= patch.resonance %></td>
+                <td><%= patch.env_amt %></td>
+                <td><%= patch.brute_factor %></td>
+                <td><%= patch.kbd_tracking %></td>
+                <td><%= patch.modmatrix %></td>
+                <td><%= patch.octave %></td>
+                <td><%= patch.volume %></td>
+                <td><%= patch.glide %></td>
+                <td><%= patch.mod_wheel %></td>
+                <td><%= patch.amount %></td>
+                <td><%= patch.wave %></td>
+                <td><%= patch.rate %></td>
+                <td><%= patch.sync %></td>
+                <td><%= patch.env_amt_2 %></td>
+                <td><%= patch.vca %></td>
+                <td><%= patch.attack %></td>
+                <td><%= patch.decay %></td>
+                <td><%= patch.sustain %></td>
+                <td><%= patch.release %></td>
+                <td><%= patch.pattern %></td>
+                <td><%= patch.play %></td>
+                <td><%= patch.rate_2 %></td>
+                <td><%= link_to 'Show', patch %></td>
+                <td><%= link_to 'Edit', edit_patch_path(patch) %></td>
+                <td><%= link_to 'Destroy', patch, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Patch', new_patch_path %>
