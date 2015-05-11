@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-    resources :patches
+    resources :patches, :has_many => :ratings
+    resources :ratings
     # The priority is based upon order of creation: first created -> highest priority.
     # See how all your routes lay out with "rake routes".
 

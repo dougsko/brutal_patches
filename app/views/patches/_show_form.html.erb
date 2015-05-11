@@ -1,3 +1,40 @@
+<script type="text/javascript">
+$(document).ready(function () {
+    //Get all the previous connections
+    var prevConnections = <%= @patch.modmatrix.html_safe if @patch.modmatrix %>;
+
+    //and add them to the mod matrix
+    jsPlumb.ready(function(){
+        //remove all the old endpoints
+        jsPlumb.deleteEveryEndpoint();
+        //unbind the click to detach
+        jsPlumb.unbind("click");
+        jsPlumb.Defaults.Endpoint = "Dot";
+        jsPlumb.Defaults.EndpointStyle = { fillStyle : "transparent" };
+        jsPlumb.Defaults.Anchor = [.48, .15, 0, 0];
+        jsPlumb.Defaults.PaintStyle = { lineWidth: 3, strokeStyle: "#ffa500" };
+        jsPlumb.Defaults.endpointPaintStyle = { fillStyle: "blue", outlineColor: "black", outlineWidth: 1 };  
+
+        for(var key in prevConnections){
+            var selectedConnection = prevConnections[key];
+            var modSource = selectedConnection.source;
+            var modTarget = selectedConnection.target;
+            //make connection
+            jsPlumb.connect({source:modSource, target:modTarget, detachable:false });
+        }
+    });
+
+    // Set the octave
+    moveIndicator(<%= @patch.octave %>);
+    $( "#octave-controls .prev, #octave-controls .next").unbind( "click" ).addClass('disabled');
+    //stop them things from sliding
+    $( ".toggle, .slider" ).slider( "option", "disabled", true );
+    //Hide the save button
+    $('#patch-reset').css('display', 'block');
+    $('#patch-save, #intro-copy').hide();
+});
+</script>
+
 <%= form_for(@patch, html: {id: "patch-config"}) do |f| %>
     <% if @patch.errors.any? %>
         <div id="error_explanation">
@@ -10,7 +47,7 @@
         </ul>
         </div>
     <% end %>
-<div id="patch" class="group">
+<div id="patch" class="group" data-patch-id="<%= @patch[:id] %>">
     <div class="row top group">
         <h1>MICROBRUTE<br/><span>patch configurator</span></h1>
     </div><!-- /Row-->
@@ -298,44 +335,15 @@
 <div id="meta-info">
     <h2 id="title-text"><%= @patch.title %></h2>
     <p id="description-text"><%= @patch.description %></p>
+
+<fieldset class="rating">
+    <legend>Please rate:</legend>
+    <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Rocks!">5 stars</label>
+    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Pretty good">4 stars</label>
+    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Meh">3 stars</label>
+    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Kinda bad">2 stars</label>
+    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
+</fieldset>
 </div>
 
 <% end %>
-
-<script type="text/javascript">
-$(document).ready(function () {
-    //Get all the previous connections
-    var prevConnections = <%= @patch.modmatrix.html_safe if @patch.modmatrix %>;
-
-    //and add them to the mod matrix
-    jsPlumb.ready(function(){
-        //remove all the old endpoints
-        jsPlumb.deleteEveryEndpoint();
-        //unbind the click to detach
-        jsPlumb.unbind("click");
-        jsPlumb.Defaults.Endpoint = "Dot";
-        jsPlumb.Defaults.EndpointStyle = { fillStyle : "transparent" };
-        jsPlumb.Defaults.Anchor = [.48, .15, 0, 0];
-        jsPlumb.Defaults.PaintStyle = { lineWidth: 3, strokeStyle: "#ffa500" };
-        jsPlumb.Defaults.endpointPaintStyle = { fillStyle: "blue", outlineColor: "black", outlineWidth: 1 };  
-
-        for(var key in prevConnections){
-            var selectedConnection = prevConnections[key];
-            var modSource = selectedConnection.source;
-            var modTarget = selectedConnection.target;
-            //make connection
-            jsPlumb.connect({source:modSource, target:modTarget, detachable:false });
-        }
-    });
-
-    // Set the octave
-    moveIndicator(<%= @patch.octave %>);
-    $( "#octave-controls .prev, #octave-controls .next").unbind( "click" ).addClass('disabled');
-    //stop them things from sliding
-    $( ".toggle, .slider" ).slider( "option", "disabled", true );
-    //Hide the save button
-    $('#patch-reset').css('display', 'block');
-    $('#patch-save, #intro-copy').hide();
-});
-</script>
-

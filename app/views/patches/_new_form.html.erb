@@ -1,306 +1,307 @@
 <%= form_for(@patch, html: {id: "patch-config"}) do |f| %>
     <% if @patch.errors.any? %>
         <div id="error_explanation">
-        <h2><%= pluralize(@patch.errors.count, "error") %> prohibited this patch from being saved:</h2>
+            <h2><%= pluralize(@patch.errors.count, "error") %> prohibited this patch from being saved:</h2>
 
-        <ul>
-            <% @patch.errors.full_messages.each do |message| %>
-                <li><%= message %></li>
-        <% end %>
-        </ul>
+            <ul>
+                <% @patch.errors.full_messages.each do |message| %>
+                    <li><%= message %></li>
+                <% end %>
+            </ul>
         </div>
     <% end %>
-<div id="patch" class="group">
-    <div class="row top group">
-        <h1>MICROBRUTE<br/><span>patch configurator</span></h1>
-        <p id="intro-copy"> Dial up your favorite Microbrute patches and click "Save" to be redirected to a page with your saved configuration. The address bar will contain a link to your patch to save or share. The site is an ongoing project that is not affiliated with Arturia.</p>
-    </div><!-- /Row-->
-    <div class="row top">
-        <div id="oscillator" class="section">
-            <div class="title"><span>Oscillator</span></div>
-            <div class="column first">
-                <div class="knob-outer" id="sub-fifth"><div class="knob"><%= f.text_field :sub_fifth  , { class: "dial" , value: "#{@patch.sub_fifth}" } %></div></div>
-                <div class="s-flow"></div>
-                <p class="label">Sub &gt; Fifth</p>
-                <div class="l-flow"></div>
-                <div class="knob-outer" id="overtone"><div class="knob"><%= f.text_field :overtone  , { class: "dial", value: "#{@patch.overtone}" }%></div></div>
-                <p class="label lower">Overtone</p>
-            </div>
-            <div class="column">
-                <div class="knob-outer" id="ultra-saw"><div class="knob"><%= f.text_field :ultra_saw  , { class: "dial", value: "#{@patch.ultra_saw}" }%></div></div>
-                <div class="s-flow"></div>
-                <p class="label">Ultrasaw</p>
-                <div class="l-flow"></div>
-                <div class="knob-outer" id="saw"><div class="knob"><%= f.text_field :saw  , { class: "dial", value: "#{@patch.saw}" }%></div></div>
-                <p class="label lower">Saw</p>
-            </div>
-            <div class="column">
-                <div class="knob-outer" id="pulse-width"><div class="knob"><%= f.text_field :pulse_width  , { class: "dial", value: "#{@patch.pulse_width}" }%></div></div>
-                <div class="s-flow"></div>
-                <p class="label">Pulse Width</p>
-                <div class="l-flow"></div>
-                <div class="knob-outer" id="square"><div class="knob"><%= f.text_field :square  , { class: "dial", value: "#{@patch.square}" }%></div></div>
-                <p class="label lower">Square</p>
-            </div>
-            <div class="column">
-                <div class="knob-outer" id="metalizer"><div class="knob"><%= f.text_field :metalizer  , { class: "dial", value: "#{@patch.metalizer}" }%></div></div>
-                <div class="s-flow"></div>
-                <p class="label">Metalizer</p>
-                <div class="l-flow"></div>
-                <div class="knob-outer" id="triangle"><div class="knob"><%= f.text_field :triangle  , { class: "dial", value: "#{@patch.triangle}" }%></div></div>
-                <p class="label lower">Triangle</p>
-            </div>
-        </div>
-        <!-- / Oscillator Section -->
-        <!--Filter Section -->
-        <div id="filter" class="section">
-            <div class="title"><span>Filter</span></div>
-            <div class="column first">
-                <div class="knob-outer" id="cutoff"><div class="knob"><%= f.text_field :cutoff  , { class: "dial", value: "#{@patch.cutoff}" }%></div></div>
-                <p class="label">Cutoff</p>
-                <div class="toggle-wrap group">
-                    <div class="col first">
-                        <div class="toggle-outer" id="mode">
-                            <div class="toggle" data-max="2"></div>
-                            <%= f.hidden_field :mode, { class: "toggle-input", value: "#{@patch.mode}" } %>
-                        </div>
-                        <p class="label lower">Mode</p>
-                    </div>
-                    <div class="col labels">
-                        <p>HP</p>
-                        <p>BP</p>
-                        <p>LP</p>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="knob-outer" id="resonance"><div class="knob"><%= f.text_field :resonance  , { class: "dial", value: "#{@patch.resonance}" }%></div></div>
-                <p class="label">Resonance</p>
-                <div class="knob-outer" id="env-amt"><div class="knob"><%= f.text_field :env_amt  , { class: "dial", value: "#{@patch.env_amt}" }%></div></div>
-                <p class="label lower">ENV Amt</p>
-            </div>
-            <div class="column">
-                <div class="knob-outer" id="brute-factor"><div class="knob"><%= f.text_field :brute_factor  , { class: "dial", value: "#{@patch.brute_factor}" }%></div></div>
-                <p class="label">Brute Factor</p>
-                <div class="knob-outer" id="kbd-tracking"><div class="knob"><%= f.text_field :kbd_tracking  , { class: "dial", value: "#{@patch.kbd_tracking}" }%></div></div>
-                <p class="label lower">KBD Tracking </p>
-            </div>
-        </div>
-        <!-- /Filter Section -->
-        <!-- Mod Matrix-->
-        <div id="mod-matrix" class="section">
-            <div class="title"><span>Mod Matrix</span></div>
-            <div id="cv-out" class="cv"><p>CV Out</p></div>
-            <div id="cv-in" class="cv"><p>CV In</p></div>
-            <div id="patch-bay">
+    <div id="patch" class="group">
+        <div class="row top group">
+            <h1>MICROBRUTE<br/><span>patch configurator</span></h1>
+            <p id="intro-copy"> Dial up your favorite Microbrute patches and click "Save" to be redirected to a page with your saved configuration. The address bar will contain a link to your patch to save or share. The site is an ongoing project that is not affiliated with Arturia.</p>
+        </div><!-- /Row-->
+        <div class="row top">
+            <div id="oscillator" class="section">
+                <div class="title"><span>Oscillator</span></div>
                 <div class="column first">
-                    <div class="mod-outer"><p class="label lower">ENV</p></div>
-                    <div class="mod-outer"><p class="label lower">LFO</p></div>
+                    <div class="knob-outer" id="sub-fifth"><div class="knob"><%= f.text_field :sub_fifth  , { class: "dial" , value: "#{@patch.sub_fifth}" } %></div></div>
+                    <div class="s-flow"></div>
+                    <p class="label">Sub &gt; Fifth</p>
+                    <div class="l-flow"></div>
+                    <div class="knob-outer" id="overtone"><div class="knob"><%= f.text_field :overtone  , { class: "dial", value: "#{@patch.overtone}" }%></div></div>
+                    <p class="label lower">Overtone</p>
                 </div>
                 <div class="column">
-                    <div class="mod-outer"><p class="label lower">Metal</p></div>
-                    <div class="mod-outer"><p class="label lower">Pitch</p></div>
+                    <div class="knob-outer" id="ultra-saw"><div class="knob"><%= f.text_field :ultra_saw  , { class: "dial", value: "#{@patch.ultra_saw}" }%></div></div>
+                    <div class="s-flow"></div>
+                    <p class="label">Ultrasaw</p>
+                    <div class="l-flow"></div>
+                    <div class="knob-outer" id="saw"><div class="knob"><%= f.text_field :saw  , { class: "dial", value: "#{@patch.saw}" }%></div></div>
+                    <p class="label lower">Saw</p>
                 </div>
                 <div class="column">
-                    <div class="mod-outer"><p class="label lower">Saw</p></div>
-                    <div class="mod-outer"><p class="label lower">Filter</p></div>
+                    <div class="knob-outer" id="pulse-width"><div class="knob"><%= f.text_field :pulse_width  , { class: "dial", value: "#{@patch.pulse_width}" }%></div></div>
+                    <div class="s-flow"></div>
+                    <p class="label">Pulse Width</p>
+                    <div class="l-flow"></div>
+                    <div class="knob-outer" id="square"><div class="knob"><%= f.text_field :square  , { class: "dial", value: "#{@patch.square}" }%></div></div>
+                    <p class="label lower">Square</p>
                 </div>
                 <div class="column">
-                    <div class="mod-outer"><p class="label lower">Sub</p></div>
-                    <div class="mod-outer"><p class="label lower">PWM</p></div>
+                    <div class="knob-outer" id="metalizer"><div class="knob"><%= f.text_field :metalizer  , { class: "dial", value: "#{@patch.metalizer}" }%></div></div>
+                    <div class="s-flow"></div>
+                    <p class="label">Metalizer</p>
+                    <div class="l-flow"></div>
+                    <div class="knob-outer" id="triangle"><div class="knob"><%= f.text_field :triangle  , { class: "dial", value: "#{@patch.triangle}" }%></div></div>
+                    <p class="label lower">Triangle</p>
                 </div>
-                <div class="mod" id="mod-env"></div>
-                <div class="mod" id="mod-lfo"></div>
-                <div class="mod" id="mod-metal"></div>
-                <div class="mod" id="mod-pitch"></div>
-                <div class="mod" id="mod-saw"></div>
-                <div class="mod" id="mod-filter"></div>
-                <div class="mod" id="mod-sub"></div>
-                <div class="mod" id="mod-pwm"></div>
             </div>
-        </div>
-        <%= f.hidden_field :modmatrix  , { id: "modmatrix-input" }%>
-        <!-- /Mod Matrix-->
-        <div id="octave" class="section">
-            <div class="title"><span>Octave</span></div>
-            <ul id="octave-indicators" class="group">
-                <li class="label" id="neg2">-2<div class="led"></div></li>
-                <li class="label" id="neg1">-1<div class="led"></div></li>
-                <li class="label" id="zero">0<div class="led"></div></li>
-                <li class="label" id="pos1">1<div class="led"></div></li>
-                <li class="label" id="pos2">-2<div class="led"></div></li>
-            </ul>
-            <%= f.hidden_field :octave  , { id: "octave-input", value: "#{@patch.octave}" } %>
-            <ul id="octave-controls" class="group">
-                <li class="prev">Previous</li>
-                <li class="next">Next</li>
-            </ul>
-        </div>
-        <!-- /Octave -->
-        <!-- Volume-->
-        <div id="volume-region">
-            <div class="column first">
-                <div class="knob-outer" id="volume"><div class="knob"><%= f.text_field :volume  , { class: "dial", value: "#{@patch.volume}" }%></div></div>
-                <p class="label lower">Master Volume</p>
-            </div>
-        </div>
-        <!-- /Volume-->
-    </div><!-- /Row-->
-    <div class="row">
-        <!-- Controls-->
-        <div id="controls" class="section">
-            <div class="title"><span>Controls</span></div>
-            <div class="column single">
-                <div class="knob-outer" id="glide"><div class="knob"><%= f.text_field :glide  , { class: "dial", value: "#{@patch.glide}" }%></div></div>
-                <p class="label lower">Glide</p>
-                <div class="toggle-wrap group">
-                    <div class="col first">
-                        <div class="toggle-outer" id="mod-wheel">
-                            <div class="toggle" data-max="1"></div>
-                            <%= f.hidden_field :mod_wheel  , { class: "toggle-input", value: "#{@patch.mod_wheel}" }%>
+            <!-- / Oscillator Section -->
+            <!--Filter Section -->
+            <div id="filter" class="section">
+                <div class="title"><span>Filter</span></div>
+                <div class="column first">
+                    <div class="knob-outer" id="cutoff"><div class="knob"><%= f.text_field :cutoff  , { class: "dial", value: "#{@patch.cutoff}" }%></div></div>
+                    <p class="label">Cutoff</p>
+                    <div class="toggle-wrap group">
+                        <div class="col first">
+                            <div class="toggle-outer" id="mode">
+                                <div class="toggle" data-max="2"></div>
+                                <%= f.hidden_field :mode, { class: "toggle-input", value: "#{@patch.mode}" } %>
+                            </div>
+                            <p class="label lower">Mode</p>
                         </div>
-                        <p class="label lower">Mod Wheel</p>
-                    </div>
-                    <div class="col labels">
-                        <p class="tall">LFO AmT</p>
-                        <p>Cutoff</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /Controls-->
-        <!-- LFO-->
-        <div id="lfo" class="section">
-            <div class="title"><span>LFO</span></div>
-            <div class="column first">
-                <div class="knob-outer" id="amount"><div class="knob"><%= f.text_field :amount  , { class: "dial", value: "#{@patch.amount}" }%></div></div>
-                <p class="label">Amount</p>
-                <div class="toggle-wrap group">
-                    <div class="col first">
-                        <div class="toggle-outer" id="wave">
-                            <div class="toggle" data-max="2"></div>
-                            <%= f.hidden_field :wave  , { class: "toggle-input", value: "#{@patch.wave}" }%>
+                        <div class="col labels">
+                            <p>HP</p>
+                            <p>BP</p>
+                            <p>LP</p>
                         </div>
-                        <p class="label lower">Wave</p>
-                    </div>
-                    <div class="col labels">
-                        <p>Sq</p>
-                        <p>Saw</p>
-                        <p>Tri</p>
                     </div>
                 </div>
+                <div class="column">
+                    <div class="knob-outer" id="resonance"><div class="knob"><%= f.text_field :resonance  , { class: "dial", value: "#{@patch.resonance}" }%></div></div>
+                    <p class="label">Resonance</p>
+                    <div class="knob-outer" id="env-amt"><div class="knob"><%= f.text_field :env_amt  , { class: "dial", value: "#{@patch.env_amt}" }%></div></div>
+                    <p class="label lower">ENV Amt</p>
+                </div>
+                <div class="column">
+                    <div class="knob-outer" id="brute-factor"><div class="knob"><%= f.text_field :brute_factor  , { class: "dial", value: "#{@patch.brute_factor}" }%></div></div>
+                    <p class="label">Brute Factor</p>
+                    <div class="knob-outer" id="kbd-tracking"><div class="knob"><%= f.text_field :kbd_tracking  , { class: "dial", value: "#{@patch.kbd_tracking}" }%></div></div>
+                    <p class="label lower">KBD Tracking </p>
+                </div>
             </div>
-            <div class="column">
-                <div class="knob-outer" id="rate"><div class="knob"><%= f.text_field :rate  , { class: "dial", value: "#{@patch.rate}" }%></div></div>
-                <p class="label">Rate</p>
-                <div class="toggle-wrap group">
-                    <div class="col first">
-                        <div class="toggle-outer" id="sync">
-                            <div class="toggle" data-max="1"></div>
-                            <%= f.hidden_field :sync  , { class: "toggle-input", value: "#{@patch.sync}" }%>
+            <!-- /Filter Section -->
+            <!-- Mod Matrix-->
+            <div id="mod-matrix" class="section">
+                <div class="title"><span>Mod Matrix</span></div>
+                <div id="cv-out" class="cv"><p>CV Out</p></div>
+                <div id="cv-in" class="cv"><p>CV In</p></div>
+                <div id="patch-bay">
+                    <div class="column first">
+                        <div class="mod-outer"><p class="label lower">ENV</p></div>
+                        <div class="mod-outer"><p class="label lower">LFO</p></div>
+                    </div>
+                    <div class="column">
+                        <div class="mod-outer"><p class="label lower">Metal</p></div>
+                        <div class="mod-outer"><p class="label lower">Pitch</p></div>
+                    </div>
+                    <div class="column">
+                        <div class="mod-outer"><p class="label lower">Saw</p></div>
+                        <div class="mod-outer"><p class="label lower">Filter</p></div>
+                    </div>
+                    <div class="column">
+                        <div class="mod-outer"><p class="label lower">Sub</p></div>
+                        <div class="mod-outer"><p class="label lower">PWM</p></div>
+                    </div>
+                    <div class="mod" id="mod-env"></div>
+                    <div class="mod" id="mod-lfo"></div>
+                    <div class="mod" id="mod-metal"></div>
+                    <div class="mod" id="mod-pitch"></div>
+                    <div class="mod" id="mod-saw"></div>
+                    <div class="mod" id="mod-filter"></div>
+                    <div class="mod" id="mod-sub"></div>
+                    <div class="mod" id="mod-pwm"></div>
+                </div>
+            </div>
+            <%= f.hidden_field :modmatrix  , { id: "modmatrix-input" }%>
+            <!-- /Mod Matrix-->
+            <div id="octave" class="section">
+                <div class="title"><span>Octave</span></div>
+                <ul id="octave-indicators" class="group">
+                    <li class="label" id="neg2">-2<div class="led"></div></li>
+                    <li class="label" id="neg1">-1<div class="led"></div></li>
+                    <li class="label" id="zero">0<div class="led"></div></li>
+                    <li class="label" id="pos1">1<div class="led"></div></li>
+                    <li class="label" id="pos2">-2<div class="led"></div></li>
+                </ul>
+                <%= f.hidden_field :octave  , { id: "octave-input", value: "#{@patch.octave}" } %>
+                <ul id="octave-controls" class="group">
+                    <li class="prev">Previous</li>
+                    <li class="next">Next</li>
+                </ul>
+            </div>
+            <!-- /Octave -->
+            <!-- Volume-->
+            <div id="volume-region">
+                <div class="column first">
+                    <div class="knob-outer" id="volume"><div class="knob"><%= f.text_field :volume  , { class: "dial", value: "#{@patch.volume}" }%></div></div>
+                    <p class="label lower">Master Volume</p>
+                </div>
+            </div>
+            <!-- /Volume-->
+        </div><!-- /Row-->
+        <div class="row">
+            <!-- Controls-->
+            <div id="controls" class="section">
+                <div class="title"><span>Controls</span></div>
+                <div class="column single">
+                    <div class="knob-outer" id="glide"><div class="knob"><%= f.text_field :glide  , { class: "dial", value: "#{@patch.glide}" }%></div></div>
+                    <p class="label lower">Glide</p>
+                    <div class="toggle-wrap group">
+                        <div class="col first">
+                            <div class="toggle-outer" id="mod-wheel">
+                                <div class="toggle" data-max="1"></div>
+                                <%= f.hidden_field :mod_wheel  , { class: "toggle-input", value: "#{@patch.mod_wheel}" }%>
+                            </div>
+                            <p class="label lower">Mod Wheel</p>
                         </div>
-                        <p class="label lower">Sync</p>
-                    </div>
-                    <div class="col labels">
-                        <p class="tall">Seq</p>
-                        <p>Free</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /LFO-->
-        <!-- Envelope-->
-        <div id="envelope" class="section">
-            <div class="title"><span>Envelope</span></div>
-            <div class="column first">
-                <div class="knob-outer" id="env-amt-2"><div class="knob"><%= f.text_field :env_amt_2  , { class: "dial", value: "#{@patch.env_amt_2}" }%></div></div>
-                <p class="label">Env Amt</p>
-                <div class="toggle-wrap group">
-                    <div class="col first">
-                        <div class="toggle-outer" id="vca">
-                            <div class="toggle" data-max="1"></div>
-                            <%= f.hidden_field :vca  , { class: "toggle-input", value: "#{@patch.vca}" }%>
+                        <div class="col labels">
+                            <p class="tall">LFO AmT</p>
+                            <p>Cutoff</p>
                         </div>
-                        <p class="label lower">VCA</p>
-                    </div>
-                    <div class="col labels">
-                        <p class="tall">Env</p>
-                        <p>Gate</p>
                     </div>
                 </div>
             </div>
-            <div class="column first-slide">
-                <div class="slider-wrap">
-                    <div class="slider-outer" id="attack">
-                        <div class="slider"></div>
-                        <%= f.hidden_field :attack  , { class: "slider-input", value: "#{@patch.attack}" }%>
-                    </div>
-                    <p class="label lower">Attack</p>
-                </div>
-            </div>
-            <div class="column">
-                <div class="slider-wrap">
-                    <div class="slider-outer" id="decay">
-                        <div class="slider"></div>
-                        <%= f.hidden_field :decay  , { class: "slider-input", value: "#{@patch.decay}" }%>
-                    </div>
-                    <p class="label lower">Decay</p>
-                </div>
-            </div>
-            <div class="column">
-                <div class="slider-wrap">
-                    <div class="slider-outer" id="sustain">
-                        <div class="slider"></div>
-                        <%= f.hidden_field :sustain  , { class: "slider-input", value: "#{@patch.sustain}" }%>
-                    </div>
-                    <p class="label lower">Sustain</p>
-                </div>
-            </div>
-            <div class="column">
-                <div class="slider-wrap">
-                    <div class="slider-outer" id="release">
-                        <div class="slider"></div>
-                        <%= f.hidden_field :release  , { class: "slider-input", value: "#{@patch.release}" }%>
-                    </div>
-                    <p class="label lower">Release</p>
-                </div>
-            </div>
-        </div>
-        <!-- /Envelope-->
-        <!-- LFO-->
-        <div id="sequencer" class="section">
-            <div class="title"><span>Sequencer</span></div>
-            <div class="column first">
-                <div class="knob-outer-p" id="pattern"><div class="knob-p"><%= f.text_field :pattern  , { class: "dial-p", value: "#{@patch.pattern}" }%></div></div>
-                <p class="label">Pattern</p>
-                <div class="toggle-wrap group">
-                    <div class="col first">
-                        <div class="toggle-outer" id="play">
-                            <div class="toggle" data-max="2"></div>
-                            <%= f.hidden_field :play  , { class: "toggle-input", value: "#{@patch.play}" }%>
+            <!-- /Controls-->
+            <!-- LFO-->
+            <div id="lfo" class="section">
+                <div class="title"><span>LFO</span></div>
+                <div class="column first">
+                    <div class="knob-outer" id="amount"><div class="knob"><%= f.text_field :amount  , { class: "dial", value: "#{@patch.amount}" }%></div></div>
+                    <p class="label">Amount</p>
+                    <div class="toggle-wrap group">
+                        <div class="col first">
+                            <div class="toggle-outer" id="wave">
+                                <div class="toggle" data-max="2"></div>
+                                <%= f.hidden_field :wave  , { class: "toggle-input", value: "#{@patch.wave}" }%>
+                            </div>
+                            <p class="label lower">Wave</p>
                         </div>
-                        <p class="label lower">Play</p>
+                        <div class="col labels">
+                            <p>Sq</p>
+                            <p>Saw</p>
+                            <p>Tri</p>
+                        </div>
                     </div>
-                    <div class="col labels">
-                        <p>Play</p>
-                        <p>Off</p>
-                        <p>Record</p>
+                </div>
+                <div class="column">
+                    <div class="knob-outer" id="rate"><div class="knob"><%= f.text_field :rate  , { class: "dial", value: "#{@patch.rate}" }%></div></div>
+                    <p class="label">Rate</p>
+                    <div class="toggle-wrap group">
+                        <div class="col first">
+                            <div class="toggle-outer" id="sync">
+                                <div class="toggle" data-max="1"></div>
+                                <%= f.hidden_field :sync  , { class: "toggle-input", value: "#{@patch.sync}" }%>
+                            </div>
+                            <p class="label lower">Sync</p>
+                        </div>
+                        <div class="col labels">
+                            <p class="tall">Seq</p>
+                            <p>Free</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="column">
-                <div class="knob-outer" id="rate-2"><div class="knob"><%= f.text_field :rate  , { class: "dial", value: "#{@patch.rate}" }%></div></div>
-                <p class="label">Rate</p>
+            <!-- /LFO-->
+            <!-- Envelope-->
+            <div id="envelope" class="section">
+                <div class="title"><span>Envelope</span></div>
+                <div class="column first">
+                    <div class="knob-outer" id="env-amt-2"><div class="knob"><%= f.text_field :env_amt_2  , { class: "dial", value: "#{@patch.env_amt_2}" }%></div></div>
+                    <p class="label">Env Amt</p>
+                    <div class="toggle-wrap group">
+                        <div class="col first">
+                            <div class="toggle-outer" id="vca">
+                                <div class="toggle" data-max="1"></div>
+                                <%= f.hidden_field :vca  , { class: "toggle-input", value: "#{@patch.vca}" }%>
+                            </div>
+                            <p class="label lower">VCA</p>
+                        </div>
+                        <div class="col labels">
+                            <p class="tall">Env</p>
+                            <p>Gate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column first-slide">
+                    <div class="slider-wrap">
+                        <div class="slider-outer" id="attack">
+                            <div class="slider"></div>
+                            <%= f.hidden_field :attack  , { class: "slider-input", value: "#{@patch.attack}" }%>
+                        </div>
+                        <p class="label lower">Attack</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="slider-wrap">
+                        <div class="slider-outer" id="decay">
+                            <div class="slider"></div>
+                            <%= f.hidden_field :decay  , { class: "slider-input", value: "#{@patch.decay}" }%>
+                        </div>
+                        <p class="label lower">Decay</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="slider-wrap">
+                        <div class="slider-outer" id="sustain">
+                            <div class="slider"></div>
+                            <%= f.hidden_field :sustain  , { class: "slider-input", value: "#{@patch.sustain}" }%>
+                        </div>
+                        <p class="label lower">Sustain</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="slider-wrap">
+                        <div class="slider-outer" id="release">
+                            <div class="slider"></div>
+                            <%= f.hidden_field :release  , { class: "slider-input", value: "#{@patch.release}" }%>
+                        </div>
+                        <p class="label lower">Release</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!-- /LFO-->
-    </div><!-- /Row-->
-</div><!-- /Patch-->
-<div id="meta-info">
-    <h2 id="title-text" class="editable" contenteditable="true">Enter Title Here</h2>
-    <p id="description-text" class="editable" contenteditable="true">Enter your description here, or leave alone to have none.</p>
-    <%= f.hidden_field :title  , { id: "title-input", value: "#{@patch.id}" }%>
-    <%= f.hidden_field :description  , { id: "description-input", value: "#{@patch.description}" }%>
-</div>
-<%= submit_tag("Save", {id: "patch-save"}) %>
+            <!-- /Envelope-->
+            <!-- LFO-->
+            <div id="sequencer" class="section">
+                <div class="title"><span>Sequencer</span></div>
+                <div class="column first">
+                    <div class="knob-outer-p" id="pattern"><div class="knob-p"><%= f.text_field :pattern  , { class: "dial-p", value: "#{@patch.pattern}" }%></div></div>
+                    <p class="label">Pattern</p>
+                    <div class="toggle-wrap group">
+                        <div class="col first">
+                            <div class="toggle-outer" id="play">
+                                <div class="toggle" data-max="2"></div>
+                                <%= f.hidden_field :play  , { class: "toggle-input", value: "#{@patch.play}" }%>
+                            </div>
+                            <p class="label lower">Play</p>
+                        </div>
+                        <div class="col labels">
+                            <p>Play</p>
+                            <p>Off</p>
+                            <p>Record</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="knob-outer" id="rate-2"><div class="knob"><%= f.text_field :rate  , { class: "dial", value: "#{@patch.rate}" }%></div></div>
+                    <p class="label">Rate</p>
+                </div>
+            </div>
+            <!-- /LFO-->
+        </div><!-- /Row-->
+    </div><!-- /Patch-->
+    <div id="meta-info">
+        <h2 id="title-text" class="editable" contenteditable="true">Enter Title Here</h2>
+        <p id="description-text" class="editable" contenteditable="true">Enter your description here, or leave alone to have none.</p>
+        <%= f.hidden_field :title  , { id: "title-input", value: "#{@patch.id}" }%>
+        <%= f.hidden_field :description  , { id: "description-input", value: "#{@patch.description}" }%>
+    </div>
+    <%= submit_tag("Save", {id: "patch-save"}) %>
+    <%= link_to 'Back', patches_path, {id: "patch-new"} %>
 <% end %>
