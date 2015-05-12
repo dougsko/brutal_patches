@@ -138,10 +138,26 @@ $(document).ready(function () {
         var patch_id = $("#patch").attr('data-patch-id');
         var cookie = $.cookie('favs');
         var favs = cookie ? cookie.split(/,/) : new Array();
-        favs.push(patch_id);
+        if($("[name='favorite']").is(':checked')) {
+            favs.push(patch_id);
+            console.log('checked');
+        }
+        else {
+            favs.pop(patch_id);
+            console.log('unchecked');
+        }
         $.cookie('favs', $.unique(favs), { expires: 365 });
         console.log($.cookie('favs'));
     });
+
+    // check favorite checkbox if this is a favorite
+    var cookie = $.cookie('favs');
+    var favs = cookie ? cookie.split(/,/) : new Array();
+    var patch_id = $("#patch").attr('data-patch-id');
+    console.log(favs);
+    if($.inArray(patch_id, favs) >= 0) {
+        $("[name='favorite']").attr('checked', true);
+    }
 
     //initializing all knobs
     $(".dial").knob({

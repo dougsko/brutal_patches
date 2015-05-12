@@ -4,6 +4,8 @@ class Patch < ActiveRecord::Base
     has_many :ratings
     accepts_nested_attributes_for :ratings
 
+    searchkick
+
     private 
     def update_title
         if self.title == ""

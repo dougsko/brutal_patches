@@ -3,14 +3,22 @@
 <div id="index-patch" class="group">
     <div class="row top group">
         <div class="column">
-        <h1>MICROBRUTE<br/><span>patches</span></h1>
+            <a href="/"><h1>MICROBRUTE<br/><span>patches</span></h1></a>
         </div>
         <div class="column">
-        <%= link_to 'New Patch', new_patch_path, {id: "patch-new"} %>
+            <%= link_to 'New Patch', new_patch_path, {id: "patch-new"} %>
         </div>
         <div class="column">
-        <%= link_to 'Favorites', patches_favs_path, {class: "patch-fav"} %>
+            <%= link_to 'Favorites', patches_favs_path, {class: "patch-fav"} %>
         </div>
+
+    </div>
+    <div class="row group">
+        <%= form_for(patches_path, {:method => :get}) do |f| %>
+            <%= f.text_field :query %>
+            <%= submit_tag("Submit", {id: "patch-search"}) %>
+            <%= link_to 'Clear', patches_path, {class: "clear-search"} %>
+        <% end %>
     </div>
 
     <div class="row">

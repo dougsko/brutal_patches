@@ -49,7 +49,7 @@ $(document).ready(function () {
     <% end %>
 <div id="patch" class="group" data-patch-id="<%= @patch[:id] %>">
     <div class="row top group">
-        <h1>MICROBRUTE<br/><span>patch configurator</span></h1>
+        <a href="/"><h1>MICROBRUTE<br/><span>patches</span></h1></a>
     </div><!-- /Row-->
     <div class="row top">
         <div id="oscillator" class="section">
@@ -354,7 +354,7 @@ $(document).ready(function () {
         </div>
 
         <div class="column">
-            <div id="favorite" name="favorite">🔖</div>
+            <input type="checkbox" id="favorite" name="favorite"><label for="favorite">Favorite</label>
         </div>
     </div>
 </div>

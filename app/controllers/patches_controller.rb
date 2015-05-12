@@ -4,7 +4,11 @@ class PatchesController < ApplicationController
     # GET /patches
     # GET /patches.json
     def index
-        @patches = Patch.all.order(average_rating: :desc, title: :asc)
+        if params["/patches"].present?
+            @patches = Patch.search(params["/patches"][:query])
+        else
+            @patches = Patch.all.order(average_rating: :desc, title: :asc)
+        end
     end
 
     # GET /patches/1
