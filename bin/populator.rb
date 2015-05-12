@@ -1,3 +1,7 @@
+require 'net/http'
+require 'yaml'
+require 'nokogiri'
+
 @patches = []
 @patch_list = YAML.load_file('bin/patches.yml')
 @patch_list.each do |patch_entry|
