@@ -6,10 +6,7 @@
         <h1>MICROBRUTE<br/><span>patches</span></h1>
         </div>
         <div class="column">
-        <%= link_to 'New Patch', new_patch_path, {id: "patch-new"} %>
-        </div>
-        <div class="column">
-        <%= link_to 'Favorites', patches_favs_path, {class: "patch-fav"} %>
+        <%= link_to 'Back', patches_path, {id: "patch-new"} %>
         </div>
     </div>
 
@@ -23,7 +20,7 @@
                                 <%= '★' *  patch.average_rating.to_i %>
                             <% end %>
                         </td>
-                        <td ><%= link_to patch.title, patch, {class:"title-text"} %></td>
+                        <td class="title-text"><%= link_to patch.title, patch, {class:"title-text"} %></td>
                         <td class="description-text"><%= patch.description %></td>
                     </tr>
                 <% end %>

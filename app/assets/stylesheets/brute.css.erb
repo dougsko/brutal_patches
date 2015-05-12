@@ -212,6 +212,22 @@ input[type="submit"], #patch-reset {
     cursor: pointer;
 }
 
+.patch-fav {
+    width: 80px;
+    text-decoration: None;
+    clear:both;
+    margin: 20px auto;
+    display: block;
+    background: #fff;
+    padding:10px 20px;
+    border: 2px solid #fd9901;
+    color:#fd9901;
+    font-weight:bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 /*Octave */
 #octave{float:right;margin-top:10px;}
 #octave-indicators li{float:left;margin-right:10px;}
@@ -305,11 +321,25 @@ a.title-text {
 td.description-text {
     color: #aaa;
     line-height: 24px;
+    padding-left:10px;
 }
 
 #description-text {
     color:#aaa;
     line-height:24px;
+}
+
+.rating-text {
+    float: right;
+    color: #fd9901;
+    text-shadow:1px 1px grey;
+    margin-right:10px;
+}
+
+#rating {
+    float:right;
+    position:relative;
+    left:350px;
 }
 
 #meta-info div {
@@ -365,14 +395,14 @@ it doesn’t make the test unnecessarily selective */
 }
 
 .rating > input:checked ~ label {
-    color: #f70;
+    color: #fd9901;
     text-shadow:1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);
 }
 
 .rating:not(:checked) > label:hover,
 .rating:not(:checked) > label:hover ~ label {
-    color: gold;
-    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+    color: #fd9901;
+    text-shadow:1px 1px gold, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
 }
 
 .rating > input:checked + label:hover,

@@ -4,7 +4,7 @@ class PatchesController < ApplicationController
     # GET /patches
     # GET /patches.json
     def index
-        @patches = Patch.all
+        @patches = Patch.all.order(average_rating: :desc, title: :asc)
     end
 
     # GET /patches/1
@@ -59,6 +59,12 @@ class PatchesController < ApplicationController
             format.html { redirect_to patches_url, notice: 'Patch was successfully destroyed.' }
             format.json { head :no_content }
         end
+    end
+
+    # GET /patches/favs
+    def favs
+        @patches = Patch.where(id: cookies[:favs].split(",").map{|x| x.to_i})
+        puts @patches
     end
 
     private

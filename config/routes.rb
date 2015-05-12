@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-    resources :patches, :has_many => :ratings
+    #resources :patches do
+    #    resources :ratings
+    #end
+    get 'patches/favs' => 'patches#favs'
+    resources :patches
     resources :ratings
     # The priority is based upon order of creation: first created -> highest priority.
     # See how all your routes lay out with "rake routes".

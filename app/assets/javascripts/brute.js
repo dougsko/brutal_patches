@@ -106,7 +106,6 @@ $(document).ready(function () {
 
     // Ratings stuff
     $("[name='rating']").click(function() {
-        //alert($(this).attr('value'));
         var patch_id = $("#patch").attr('data-patch-id');
         var rating = $(this).attr('value');
 
@@ -118,12 +117,10 @@ $(document).ready(function () {
 
        // callback handler that will be called on success
         request.done(function (response, textStatus, jqXHR) {
-            /*
-            var patchId = response;
-            window.location.href = window.location.href + "?id=" + patchId;
-            console.log("Entry for " + patchId + " is successful");
-            */
-            //location.reload();
+            var res = response;
+            $("[name='rating']").each(function() {
+                $(this).attr('disabled', true);
+            });
         });
 
         // callback handler that will be called on failure
@@ -137,10 +134,14 @@ $(document).ready(function () {
     });
 
     // Cookie stuff for favorites
-    // var ids = $.cookie('favs');
-    // var patch_id = $("#patch").attr('data-patch-id');
-    // ids.push(patch_id);
-    //$.cookie('favs', ids, { expires: 365 });
+    $("[name='favorite']").click(function() {
+        var patch_id = $("#patch").attr('data-patch-id');
+        var cookie = $.cookie('favs');
+        var favs = cookie ? cookie.split(/,/) : new Array();
+        favs.push(patch_id);
+        $.cookie('favs', $.unique(favs), { expires: 365 });
+        console.log($.cookie('favs'));
+    });
 
     //initializing all knobs
     $(".dial").knob({

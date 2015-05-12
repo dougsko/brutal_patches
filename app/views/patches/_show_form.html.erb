@@ -1,7 +1,7 @@
 <script type="text/javascript">
 $(document).ready(function () {
     //Get all the previous connections
-    var prevConnections = <%= @patch.modmatrix.html_safe if @patch.modmatrix %>;
+    var prevConnections = <%= @patch.modmatrix  != nil ? @patch.modmatrix.html_safe : '[]'%>;
 
     //and add them to the mod matrix
     jsPlumb.ready(function(){
@@ -333,17 +333,30 @@ $(document).ready(function () {
     </div><!-- /Row-->
 </div><!-- /Patch-->
 <div id="meta-info">
-    <h2 id="title-text"><%= @patch.title %></h2>
-    <p id="description-text"><%= @patch.description %></p>
+    <div class="row">
+        <h2 id="title-text"><%= @patch.title %></h2>
+        <p id="description-text"><%= @patch.description %></p>
+    </div>
+    <div class="row">
+        <div class="column">
+            <%= link_to 'Back', patches_path, {id: "patch-new"} %>
+        </div>
 
-<fieldset class="rating">
-    <legend>Please rate:</legend>
-    <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Rocks!">5 stars</label>
-    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Pretty good">4 stars</label>
-    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Meh">3 stars</label>
-    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Kinda bad">2 stars</label>
-    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
-</fieldset>
+        <div class="column">
+            <fieldset id="rating" class="rating">
+                <legend>Rate this patch:</legend>
+                <input type="radio" id="star5" name="rating" value="5" /><label for="star5">5 stars</label>
+                <input type="radio" id="star4" name="rating" value="4" /><label for="star4">4 stars</label>
+                <input type="radio" id="star3" name="rating" value="3" /><label for="star3">3 stars</label>
+                <input type="radio" id="star2" name="rating" value="2" /><label for="star2">2 stars</label>
+                <input type="radio" id="star1" name="rating" value="1" /><label for="star1">1 star</label>
+            </fieldset>
+        </div>
+
+        <div class="column">
+            <div id="favorite" name="favorite">🔖</div>
+        </div>
+    </div>
 </div>
 
 <% end %>

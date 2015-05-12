@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery-ui
 //= require jquery_ujs
+//= require jquery.cookie
 //= require jquery.jsPlumb-1.5.5
 //= require jquery.knob
 //= require jquery.ui.touch-punch.min
