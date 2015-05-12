@@ -5,7 +5,8 @@
 # gem 'activerecord-jdbcsqlite3-adapter'
 #
 default: &default
-  adapter: sqlite3
+  adapter: postgresql
+  encoding: unicode    
 
 development:
   <<: *default
