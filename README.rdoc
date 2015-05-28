@@ -6,3 +6,7 @@ http://bradyjacobsen.com/microbrute.
 
 This version seeks to add some additional functionality such as
 browsing, searching, marking patches as 'favorites', and ranking.
+
+The running app is hosted on Heroku and can be found here:
+
+http://brutalpatches.herokuapp.com
