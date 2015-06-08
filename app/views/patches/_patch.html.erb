@@ -1,0 +1,11 @@
+<% @patches.each do |patch| %>
+    <tr>
+        <td class="rating-text">
+            <% if patch.average_rating %>
+                <%= '★' *  patch.average_rating.to_i %>
+            <% end %>
+        </td>
+        <td ><%= link_to patch.title, patch, {class:"title-text"} %></td>
+        <td class="description-text"><%= patch.description %></td>
+    </tr>
+<% end %>

@@ -1,0 +1,6 @@
+$("<%=j render(:partial => 'patch', :object => @patches) %>").appendTo($(".infinite-table table"));
+<% if @patches.last_page? %>
+    $('.pagination').html("That's all, folks!");
+<% else %>
+    $('.pagination').html("<%=j link_to_next_page(@patches, 'Next Page', :remote => true) %>");
+<% end %>
