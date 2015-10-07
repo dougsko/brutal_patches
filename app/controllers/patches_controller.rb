@@ -8,7 +8,8 @@ class PatchesController < ApplicationController
             @patches = Patch.search(params["/patches"][:query])
         else
             #@patches = Patch.all.order(created_at: :desc, average_rating: :desc)
-            @patches = Patch.all.order(created_at: :desc).page(params[:page])
+            #@patches = Patch.all.order(created_at: :desc).page(params[:page])
+            @patches = Patch.order(created_at: :desc).page(params[:page])
         end
         respond_to do |format|
             format.html # index.html.erb
