@@ -18,6 +18,6 @@
 //= require jquery.knob
 //= require jquery.ui.touch-punch.min
 //= require jquery.infinite-pages
-//= require_tree .
-
+//= require patches
+//= require brute
 

@@ -11,11 +11,14 @@ class PatchesController < ApplicationController
             #@patches = Patch.all.order(created_at: :desc).page(params[:page])
             @patches = Patch.order(created_at: :desc).page(params[:page])
         end
+        render layout: "patch_index"
+=begin
         respond_to do |format|
             format.html # index.html.erb
             format.xml  { render :xml => @patches }
             format.js 
         end
+=end
     end
 
     # GET /patches/1
@@ -74,8 +77,13 @@ class PatchesController < ApplicationController
 
     # GET /patches/favs
     def favs
-        @patches = Patch.where(id: cookies[:favs].split(",").map{|x| x.to_i})
-        puts @patches
+        if cookies[:favs]
+            @patches = Patch.where(id: cookies[:favs].split(",").map{|x| x.to_i})
+        else
+            @patches = []
+        end
+        #puts @patches
+        render layout: "patch_index"
     end
 
     private

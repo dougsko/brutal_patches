@@ -6,6 +6,8 @@ class Patch < ActiveRecord::Base
 
     searchkick
 
+    paginates_per 50
+
     private 
     def update_title
         if self.title == ""

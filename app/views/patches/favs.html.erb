@@ -5,26 +5,21 @@
         <div class="column">
             <a href="/"><h1>MICROBRUTE<br/><span>patches</span></h1></a>
         </div>
-        <div class="column">
-        <%= link_to 'Back', patches_path, {id: "patch-new"} %>
-        </div>
     </div>
 
     <div class="row">
-        <table>
-            <tbody>
-                <% @patches.each do |patch| %>
-                    <tr>
-                        <td class="rating-text">
-                            <% if patch.average_rating %>
-                                <%= '★' *  patch.average_rating.to_i %>
-                            <% end %>
-                        </td>
-                        <td class="title-text"><%= link_to patch.title, patch, {class:"title-text"} %></td>
-                        <td class="description-text"><%= patch.description %></td>
-                    </tr>
-                <% end %>
-            </tbody>
-        </table>
+        <div class="small-12 columns">
+            <div class="infinite-table">
+                <table>
+                    <tbody class="page">
+                        <%= render :partial => 'patch', :object => @patches %>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
-</div>
+
+    <div class="column">
+        <%= link_to 'Back', patches_path, {id: "patch-new"} %>
+    </div>
+

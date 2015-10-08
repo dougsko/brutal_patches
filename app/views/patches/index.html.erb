@@ -1,34 +1,47 @@
-<p id="notice"><%= notice %></p>
-
-<div id="index-patch" class="group">
-    <div class="row top group">
-        <div class="column">
-            <a href="/"><h1>MICROBRUTE<br/><span>patches</span></h1></a>
-        </div>
-        <div class="column">
-            <%= link_to 'New Patch', new_patch_path, {id: "patch-new"} %>
-        </div>
-        <div class="column">
-            <%= link_to 'Favorites', patches_favs_path, {class: "patch-fav"} %>
-        </div>
-
-    </div>
-    <div class="row group">
-        <%= form_for(patches_path, {:method => :get}) do |f| %>
-            <%= f.text_field :query %>
-            <%= submit_tag("Submit", {id: "patch-search"}) %>
-            <%= link_to 'Clear', patches_path, {class: "clear-search"} %>
-        <% end %>
-    </div>
-
-    <div class="infinite-table">
-        <table>
-            <tbody class="page">
-                <%= render :partial => 'patch', :object => @patches %>
-            </tbody>
-        </table>
+<div class="row">
+    <div class="small-12 columns">
+        <p id="notice"><%= notice %></p>
     </div>
 </div>
-<p class="pagination">
-    <%= link_to_next_page(@patches, 'Next Page', :remote => true) %>
-</p>
+
+<div id="index-patch" class="row">
+    <div class="small-12 columns">
+        <a href="/"><h1>MICROBRUTE <span class="grey">Patches</span></h1></a>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="small-12 columns">
+        <%= link_to 'New Patch', new_patch_path, {id: "patch-new", class: "grey"} %> | <%= link_to 'Favorites', patches_favs_path, {class: "grey"} %>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="small-6 columns">
+        <%= form_for(patches_path, {:method => :get}) do |f| %>
+            <%= f.text_field :query, :placeholder => "Search..." %>
+            <%= submit_tag("Submit", {class: "button tiny"}) %>
+        <% end %>
+    </div>
+</div>
+
+<div class="row">
+    <div class="small-12 columns">
+        <div class="infinite-table">
+            <table>
+                <tbody class="page">
+                    <%= render :partial => 'patch', :object => @patches %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="small-12 columns">
+        <!-- < #link_to_next_page(@patches, 'Next Page', :remote => true) > -->
+        <%= paginate @patches, :remote => true %>
+    </div>
+</div>

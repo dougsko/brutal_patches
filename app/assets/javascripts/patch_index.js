@@ -1,0 +1,2 @@
+//= require foundation
+$(document).foundation();

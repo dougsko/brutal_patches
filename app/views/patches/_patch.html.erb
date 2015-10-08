@@ -1,3 +1,8 @@
+<tr>
+    <th>Rating</th>
+    <th>Title</th>
+    <th>Description</th>
+</tr>
 <% @patches.each do |patch| %>
     <tr>
         <td class="rating-text">
@@ -5,7 +10,7 @@
                 <%= '★' *  patch.average_rating.to_i %>
             <% end %>
         </td>
-        <td ><%= link_to patch.title, patch, {class:"title-text"} %></td>
+        <td ><%= link_to patch.title, patch, {class:"orange"} %></td>
         <td class="description-text"><%= patch.description %></td>
     </tr>
 <% end %>
