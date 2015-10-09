@@ -5,7 +5,7 @@
 </div>
 
 <div id="index-patch" class="row">
-    <div class="small-12 columns">
+    <div class="small-8 columns">
         <a href="/"><h1>MICROBRUTE <span class="grey">Patches</span></h1></a>
     </div>
 </div>
@@ -15,7 +15,6 @@
     <div class="small-12 columns">
         <%= link_to 'New Patch', new_patch_path, {class: "grey"} %> <span class="orange">|</span> <%= link_to 'Favorites', patches_favs_path, {class: "grey"} %>
     </div>
-
 </div>
 
 <div class="row">
@@ -43,5 +42,11 @@
     <div class="small-12 columns">
         <!-- < #link_to_next_page(@patches, 'Next Page', :remote => true) > -->
         <%= paginate @patches, :remote => true %>
+    </div>
+</div>
+
+<div class="row">
+    <div class="small-12 columns">
+        <h5><small class="grey">This site is not affiliated with Arturia.  Special thanks to Brady Jacobsen for the configurator CSS from mbpatches.com.  Unlike mbpatches.com, this site is completely open source.  If you would like to contribute, you will find the code at <a href="https://github.com/dougsko/brutal_patches">https://github.com/dougsko/brutal_patches</a>.</small></h5>
     </div>
 </div>
