@@ -5,8 +5,8 @@ require 'nokogiri'
 @patches = []
 @patch_list = YAML.load_file('bin/patches2.yml')
 @patch_list.each do |patch_entry|
-    #uri = URI("http://mbpatches.com/micro/?id=#{patch_entry['url']}")
-    res = Net::HTTP.get_response(patch_entry['url'])
+    uri = URI(patch_entry['url'])
+    res = Net::HTTP.get_response(uri)
     doc = Nokogiri::HTML(res.body)
 
     patch = Patch.new
