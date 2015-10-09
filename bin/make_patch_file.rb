@@ -19,7 +19,7 @@ File.open('patches2.yml', 'w') do |f|
         url = uri
         id = i
         if title.size > 0 and desc.size > 0
-            patches << {'title' => title, 'desc' => desc, 'url' => uri, 'id' => id}
+            patches << {'title' => title, 'desc' => desc, 'url' => uri.to_s, 'id' => id}
         end
         if i % 100 == 0
             puts "Working on #{i.to_s} / 4000"
