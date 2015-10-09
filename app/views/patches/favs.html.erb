@@ -1,25 +1,37 @@
-<p id="notice"><%= notice %></p>
+<div class="row">
+    <div class="small-12 columns">
+        <p id="notice"><%= notice %></p>
+    </div>
+</div>
 
-<div id="index-patch" class="group">
-    <div class="row top group">
-        <div class="column">
-            <a href="/"><h1>MICROBRUTE<br/><span>patches</span></h1></a>
+<div id="index-patch" class="row">
+    <div class="small-12 columns">
+        <a href="/"><h1>MICROBRUTE <span class="grey">Patches</span></h1></a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="small-12 columns">
+        <p class="grey">Favorites</p>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="small-12 columns">
+        <div class="infinite-table">
+            <table>
+                <tbody class="page">
+                    <%= render :partial => 'patch', :object => @patches %>
+                </tbody>
+            </table>
         </div>
     </div>
+</div>
 
-    <div class="row">
-        <div class="small-12 columns">
-            <div class="infinite-table">
-                <table>
-                    <tbody class="page">
-                        <%= render :partial => 'patch', :object => @patches %>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-
-    <div class="column">
+<div class="row">
+    <div class="small-12 columns">
         <%= link_to 'Back', patches_path, {id: "patch-new"} %>
     </div>
+</div>
 

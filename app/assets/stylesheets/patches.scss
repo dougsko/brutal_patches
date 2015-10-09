@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 body {
     background-color: #666;
 }
@@ -17,4 +18,16 @@ h1 {
 
 .grey {
     color: #aaa;
+}
+
+input[type="submit"] {
+    clear:both;
+    background: #fff;
+    padding:10px 20px;
+    border: 2px solid #fd9901;
+    color:#fd9901;
+    font-weight:bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
 }

@@ -1,0 +1,8669 @@
+---
+- title: Stabby Saw
+  desc: I was playing around trying to mimic a synth used in a CHVRCHES song and found
+    out this sounds almost exactly like it. Even moreso if you add "Rectifier" and
+    "Megaflexon" in Ableton.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3
+    opaque: 
+    fragment: 
+    parser: &1 !ruby/object:URI::RFC3986_Parser
+      regexp:
+        :SCHEME: !ruby/regexp /\A[A-Za-z][A-Za-z0-9+\-.]*\z/
+        :USERINFO: !ruby/regexp /\A(?:%\h\h|[!$&-.0-;=A-Z_a-z~])*\z/
+        :HOST: !ruby/regexp /\A(?:(?<IP-literal>\[(?:(?<IPv6address>(?:\h{1,4}:){6}(?<ls32>\h{1,4}:\h{1,4}|(?<IPv4address>(?<dec-octet>[1-9]\d|1\d{2}|2[0-4]\d|25[0-5]|\d)\.\g<dec-octet>\.\g<dec-octet>\.\g<dec-octet>))|::(?:\h{1,4}:){5}\g<ls32>|\h{,4}::(?:\h{1,4}:){4}\g<ls32>|(?:(?:\h{1,4}:)?\h{1,4})?::(?:\h{1,4}:){3}\g<ls32>|(?:(?:\h{1,4}:){,2}\h{1,4})?::(?:\h{1,4}:){2}\g<ls32>|(?:(?:\h{1,4}:){,3}\h{1,4})?::\h{1,4}:\g<ls32>|(?:(?:\h{1,4}:){,4}\h{1,4})?::\g<ls32>|(?:(?:\h{1,4}:){,5}\h{1,4})?::\h{1,4}|(?:(?:\h{1,4}:){,6}\h{1,4})?::)|(?<IPvFuture>v\h+\.[!$&-.0-;=A-Z_a-z~]+))\])|\g<IPv4address>|(?<reg-name>(?:%\h\h|[!$&-.0-9;=A-Z_a-z~])*))\z/
+        :ABS_PATH: !ruby/regexp /\A\/(?:%\h\h|[!$&-.0-;=@-Z_a-z~])*(?:\/(?:%\h\h|[!$&-.0-;=@-Z_a-z~])*)*\z/
+        :REL_PATH: !ruby/regexp /\A(?:%\h\h|[!$&-.0-;=@-Z_a-z~])+(?:\/(?:%\h\h|[!$&-.0-;=@-Z_a-z~])*)*\z/
+        :QUERY: !ruby/regexp /\A(?:%\h\h|[!$&-.0-;=@-Z_a-z~\/?])*\z/
+        :FRAGMENT: !ruby/regexp /\A(?:%\h\h|[!$&-.0-;=@-Z_a-z~\/?])*\z/
+        :OPAQUE: !ruby/regexp /\A(?:[^\/].*)?\z/
+        :PORT: !ruby/regexp /\A[\x09\x0a\x0c\x0d ]*\d*[\x09\x0a\x0c\x0d ]*\z/
+  id: 3
+- title: Test
+  desc: testing FF
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=7
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 7
+- title: Nother test
+  desc: test
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=8
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 8
+- title: Gritty Bass
+  desc: Basic synth bass patch, play w/ the mod matrix to get some fun variations.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=18
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 18
+- title: Wayoh 
+  desc: Kind of metal-child-voice, play with metalizer for more acid effects (for
+    a kind of "space-oboe)
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=33
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 33
+- title: LFO
+  desc: Nez
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=35
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 35
+- title: prueba
+  desc: PRUEBA
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=37
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 37
+- title: coucuo
+  desc: blbabla
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=42
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 42
+- title: PLUCKED SQUARE BASS
+  desc: orestesong
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=60
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 60
+- title: plucked square bass
+  desc: orestesong
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=61
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 61
+- title: Bassbooss
+  desc: The Arabian Cat Bass
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=70
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 70
+- title: patch de départ
+  desc: Brancher le LFO sur rien.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=95
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 95
+- title: patch de départ
+  desc: Brancher le LFO sur rien.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=96
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 96
+- title: Bimbo bass
+  desc: Avec un LFO rythmique
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=97
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 97
+- title: Bass
+  desc: Like Infinity
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=98
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 98
+- title: COIN COIN
+  desc: Env --> PWM + SAW
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=99
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 99
+- title: Enter Title Here
+  desc: Entrez votre description ici, ou laisser seul à avoir aucun.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=104
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 104
+- title: Enter Title Here
+  desc: a toi de jouer 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=105
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 105
+- title: test01
+  desc: Badaboum
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=106
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 106
+- title: Brady Test
+  desc: test
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=109
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 109
+- title: jhgjgj
+  desc: gjhghjjghj
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=119
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 119
+- title: DEPA BRUTE
+  desc: slhsfoihsgjbi ndfbdffdfidfgidfg dfgldnfgodfngdfg dfglidfgisfdbadflsfg sfgiifsgkjbwrtouihrt
+    bsfk 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=126
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 126
+- title: depa synthbass 001
+  desc: Cutoff with Filter Mod (Suono da Sub con modulazione a acid)
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=128
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 128
+- title: Depa sweet flute 001
+  desc: Flauto dolce con attacco lungo alla X-Files (No Vibrato)
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=129
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 129
+- title: depa sweet flute 002 
+  desc: Flauto dolce con vibrato
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=130
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 130
+- title: depa lead synth 001
+  desc: Use with Cutoff Mod
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=131
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 131
+- title: Electro Percussion 001
+  desc: Suono percussivo ( Mod wheel 50% - 100%)
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=132
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 132
+- title: electro percussion 002
+  desc: Suono percussivo ( Mod wheel 0% - 100%)
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=133
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 133
+- title: depa soprano synth 001
+  desc: Soprano con vibrato ( Espressione con Mod Wheel )
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=135
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 135
+- title: depa timbass synth 001
+  desc: Basso\Timpano con inviluppo in crescendo (Style W.Carlos)
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=136
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 136
+- title: depa efx kaosynth 001
+  desc: Efx Crescendo (Mod Wheel MAX)
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=137
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 137
+- title: depa down-up rythm
+  desc: Pulsazione battere\levare ( Mod Wheel )
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=138
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 138
+- title: depa funkybass 001
+  desc: "(M.dePaulis)"
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=141
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 141
+- title: depa pluklong
+  desc: Suono per arpeggiatore medium Release.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=144
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 144
+- title: depa pluklong
+  desc: Timbro stopped per arpeggiatore medium Release.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=145
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 145
+- title: depa pluklong
+  desc: Timbro stopped per arpeggiatore medium Release.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=146
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 146
+- title: depa plukshort
+  desc: Timbro stopped per arpeggiatore min Release.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=147
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 147
+- title: depa fifthpad 001
+  desc: Mod Wheel 50%
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=150
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 150
+- title: depa lead synth/bass
+  desc: "(M.dePaulis)"
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=151
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 151
+- title: depa acid-arp
+  desc: Work with Cutoff (M.dePaulis)
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=152
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 152
+- title: depa drumkick 001
+  desc: Do 1a ottava ( lavorare di decay e release )
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=153
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 153
+- title: WoobLe bass
+  desc: on rythm avec le rate du lfo , on acid avec KBD tracking
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=155
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 155
+- title: Guizmo
+  desc: Mod Wheel à 0
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=156
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 156
+- title: G Bss
+  desc: LFO et ENV sur rien
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=157
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 157
+- title: G Bss 2
+  desc: ENV sur rien
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=158
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 158
+- title: NAPPIN
+  desc: Mod Wheel au max.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=161
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 161
+- title: TINKLE
+  desc: Mod Wheel à zéro, ENV sur rien
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=162
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 162
+- title: WAÏKIKI
+  desc: Mod Wheel à zéro (le LFO ne contrôle rien).
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=163
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 163
+- title: Turttle
+  desc: Mod Wheel à zéro. Le LFO ne contrôle rien.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=164
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 164
+- title: WIGGLEER BASS
+  desc: BASeEnter your description here, or leave alone to have none.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=169
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 169
+- title: Lead Her
+  desc: An good old sound i like to use when soloing.Acting weird on lfo amt and rate
+    while driving with mod wheel raise the fun up.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=176
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 176
+- title: intruder
+  desc: beeee booooop beeeee booooooop
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=185
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 185
+- title: intruder
+  desc: 'beeeep booop beeeeeep boooop '
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=186
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 186
+- title: MSIX MHM Bass 1
+  desc: Intro bass seq
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=202
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 202
+- title: MSIX mhm bass 2
+  desc: Intro seq var 2
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=203
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 203
+- title: msix mhm Octave lead
+  desc: Percussive one-octave-above lead
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=204
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 204
+- title: Msix mhm octave lead
+  desc: One-octave-above lead
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=205
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 205
+- title: Square/saw buzzy pulse
+  desc: Use this with any sequence, and play with the mod wheel, filter cutoff, resonance,
+    and brute factor for some neat sounds.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=218
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 218
+- title: soft analogue
+  desc: with delay, and buddha box into filter - mod wheel and attack adjustments
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=229
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 229
+- title: Eurythmicised
+  desc: Sweet Dreams are made of this patch.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=233
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 233
+- title: WTF?!
+  desc: Rave on! A good start for a hoover sound, 'what the?' Patch, originally from
+    the Roland Alpha Juno.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=244
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 244
+- title: SIMON PATCH
+  desc: Modwheel à bloc
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=247
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 247
+- title: STATICS
+  desc: ModWheel à bloc, augmenter Metal et KBD Track.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=255
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 255
+- title: STATICS 2
+  desc: ModWheel à bloc. Baisser la Res pour le calmer. Jouer sur Env Amount 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=256
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 256
+- title: Kick
+  desc: Fiddle with metalizer, resonance, square wave, and brute factor for different
+    kicks.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=310
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 310
+- title: Ooof
+  desc: tweak cutoff, LFO rate, and LFO amount
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=311
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 311
+- title: bGPtpWRAAaovBKJui
+  desc: YnPXbLpwlG
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=330
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 330
+- title: Devooo
+  desc: ModW à max.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=332
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 332
+- title: Drunk
+  desc: ModW à bloc, jouer sur realease, LFO rate, brute factor.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=333
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 333
+- title: TOMS
+  desc: MW à bloc, augmenter decay pour build up.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=334
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 334
+- title: alexandri
+  desc: ModW à bloc.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=335
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 335
+- title: Jwocko
+  desc: Shwickely weirdish sfx, tweak filter cutoff
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=338
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 338
+- title: disco klub
+  desc: Molette à toc.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=342
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 342
+- title: gratte
+  desc: ModW à 0. Essayer d'autres modes de filtre
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=349
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 349
+- title: chatton
+  desc: Augmenter progressivement l'overtone et le sub, et peut-être un peu l'attaque.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=350
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 350
+- title: Brass Bass 1
+  desc: Hawk's go to gassy brass sound
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=374
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 374
+- title: 2014.03.10
+  desc: A la BOC. Avec D16 Syntorus (washer) + NI RC48 (small & bright) + Supercharger
+    GT (synth bass) + Timeless 2 (analog echo)
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=376
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 376
+- title: Psych noise 01
+  desc: Psychedelic noise swells
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=377
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 377
+- title: Env pitch
+  desc: Varier mélodie avec ENV. Ajouter autres formes d'ondes.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=378
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 378
+- title: morod
+  desc: ModW à bloc.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=379
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 379
+- title: weird thingy
+  desc: good for drums?
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=380
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 380
+- title: atari bass
+  desc: Horrible, primitive bass.  May have to tune brute factor to get correct tone.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=386
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 386
+- title: pulse
+  desc: AUgmenter légèrement Metal.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=388
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 388
+- title: zzEwPmEZZcsR
+  desc: FCBTPufKqkgukoraI
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=394
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 394
+- title: metallbass
+  desc: 'modwheel down  /  #AMOL'
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=412
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 412
+- title: norngk
+  desc: sounds nice with a sequence that uses >3 octaves
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=414
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 414
+- title: Shloop
+  desc: modulate env release for neatness
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=415
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 415
+- title: VERZpUwD
+  desc: VsGTZLIFIEZGmsoDUYF
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=419
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 419
+- title: another thing
+  desc: mod wheel all the way up
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=425
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 425
+- title: High hat sort of thing
+  desc: Mess with sustain and release, I used Ableton to send quick 16th note hits.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=426
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 426
+- title: Kick
+  desc: Play with decay and release, mod wheel around middle for bassiest kick.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=427
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 427
+- title: Atmosphere
+  desc: Floathing, pad-like, vibrato
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=469
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 469
+- title: SQUARE BASS 2014.03.18
+  desc: 'Sub Fifth : pour accentuer le côté métallique. Pour un son Swayzak, baisser
+    l''overtone entre 0/5 et 2/5.'
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=491
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 491
+- title: EPO arpeg gonz
+  desc: 'play with : cutoff 0-3, EnvAMT 8-10, and 6 diff patterns'
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=504
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 504
+- title: EPO seq 1
+  desc: Use sequencer and play with filters
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=505
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 505
+- title: cool lfo thing
+  desc: change lfo waves
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=506
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 506
+- title: Simple saw
+  desc: Created as a basic rhythm sound for use on MB_3.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=508
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 508
+- title: Simple Saw
+  desc: Created as a basic sound for use in MB_3.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=509
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 509
+- title: First Snare
+  desc: My first attempt at a snare sound. Needs improvement. Used in MB_3.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=510
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 510
+- title: Black Arp
+  desc: Set a sequence to run a descending, three note arpeggio (i.e., G,E,C) the
+    adjust tempo high
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=518
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 518
+- title: Oxygene 4
+  desc: bass
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=524
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 524
+- title: Steabs
+  desc: Augmenter Overtone et Ultrasaw.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=525
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 525
+- title: nbass
+  desc: LFO sur rien.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=526
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 526
+- title: Synth Glide
+  desc: 3/28/2014
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=532
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 532
+- title: Enter Title Here
+  desc: Entrez votre description ici, ou laisser seul à avoir aucun.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=540
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 540
+- title: Square pulse
+  desc: Mod Wheel at 30%
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=544
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 544
+- title: Witchdrone
+  desc: Slow dark riffage
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=548
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 548
+- title: Enter Title Hedfgdre
+  desc: Enter your description here, or leavfdfd
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=563
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 563
+- title: friendli
+  desc: Débranches les câbles du LFO pour faire un break.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=581
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 581
+- title: Fat bass
+  desc: Darkwave
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=591
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 591
+- title: Subjonctif
+  desc: Mod à toc.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=596
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 596
+- title: Raspy analogue bass
+  desc: Mod full on. Play with LFO rate between 3 and 5 O'clock for nice effects.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=607
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 607
+- title: guetta
+  desc: LFO sur rien, augmenter ultrasaw
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=608
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 608
+- title: GROBILL
+  desc: Augmenter progressivement le LFo amount.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=618
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 618
+- title: GRABILL
+  desc: JOUER AVEC PWM ET CUTOFF ET KBD TRACKING. Max = cutoff au min ET KBD au min. 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=626
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 626
+- title: Blade runner arp
+  desc: Sequence a 1-1-2-3
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=632
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 632
+- title: Bass low PAD cut off wheel
+  desc: Introduzca su descripción aquí, o dejar en paz a tener ninguno.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=633
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 633
+- title: Bass + FeedbACK
+  desc: Continuous bass line when played without releasing the note key otherwise
+    makes a filter modulation because of the enveloppe
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=647
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 647
+- title: Bass + FeedbACK
+  desc: Continuous bass line when played without releasing the note key otherwise
+    makes a filter modulation because of the enveloppe
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=648
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 648
+- title: Rectified Sine Wave
+  desc: By adjusting the cutoff filter and the Brute Factor in addition to the Sawtooth
+    wave form, we can have a plain sine wave
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=649
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 649
+- title: Gutter
+  desc: Dirty bass!
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=652
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 652
+- title: FEnder Bass vi Baritone Guitar
+  desc: Beautiful Baritone guitar synthesis. Sounds great with a ping pong delay.
+    Add some flange if you want to be Robert Smith a la Disintegration era. Use the
+    MOD wheel to adjust the brightness of your Baritone. Increase the Brute Factor
+    if you want a more percussive sound. Enjoy.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=665
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 665
+- title: nelly
+  desc: MW à 0. Augmenter le decay, la résonance, le brute factor (dans cet ordre)
+    et le LFO amount sur les notes longues.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=668
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 668
+- title: Gamebass1
+  desc: Augmenter LFO amount par moments.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=696
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 696
+- title: Brillow pad micro
+  desc: s Pitch out to MicroBrute CV Pitch In. Mini Gate out to Micro Gate In. Hit
+    C Keys on Micro to match the pitch of the Mini. 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=698
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 698
+- title: KRLpZysyQP
+  desc: FrgYfHsNGPPmBjAv
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=699
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 699
+- title: Stand up bass to ep
+  desc: Sounds like a plucked bass at octive -2 and starts to sound like an EP in
+    octives 0 and up.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=702
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 702
+- title: Timestamp 2
+  desc: timestamping
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=724
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 724
+- title: Test new
+  desc: testtttt
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=726
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 726
+- title: Microbrute atmosphere 2 techno low
+  desc: Bei High Filter auf BP und Cutoff auf 3 Uhr
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=736
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 736
+- title: METALBASSINSEQ1
+  desc: brutal metal bass - for use in sequences
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=741
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 741
+- title: lourdo
+  desc: MW à bloc.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=743
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 743
+- title: FADEIN
+  desc: MW sur LFO amount, ajouter SUB.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=744
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 744
+- title: There's a spider in my room main
+  desc: Mod Wheel auf Max
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=746
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 746
+- title: Enter Title Hertee
+  desc: te
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=763
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 763
+- title: sorry not a patch (test)
+  desc: site looks great but where are the patches?.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=774
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 774
+- title: delete this another test sorry
+  desc: looks great, but where are the saved patches?
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=775
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 775
+- title: Huge opening growl 
+  desc: Very organic sound compared to most. 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=791
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 791
+- title: 80's lead thing
+  desc: Called 80's Lead in files
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=792
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 792
+- title: Honf
+  desc: Augmenter LFO amount.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=802
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 802
+- title: metal bass
+  desc: MW à 0.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=828
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 828
+- title: Finally bass micro
+  desc: Mini pitch out to Micro pitch in. Mini gate out to Micro gate in. Micro audio
+    in slightly up.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=829
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 829
+- title: Mini Bark 808
+  desc: Tweak the KBD Tracking and ENV Amt thats above the VCA switch for new tones
+    withing the framework. Very versatile Resonance tones.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=840
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 840
+- title: bombata
+  desc: MW à 0.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=841
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 841
+- title: glassy
+  desc: used with Philip Glass inspired sequence
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=860
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 860
+- title: Spacebrute
+  desc: Add Delay+Reverb
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=866
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 866
+- title: Borgnine
+  desc: Add luscious reverb (around 12 sec.)
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=867
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 867
+- title: Roygbiv
+  desc: Add medium bright natural reverb
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=874
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 874
+- title: Squelching SuperSquare
+  desc: Squelchy resonate square. Turn the mod wheel up to gain a pseudo-super square
+    sound on top of that.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=876
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 876
+- title: Bass Runner Up Arp
+  desc: Pulse Bass Arp Up
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=884
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 884
+- title: Long whoosh
+  desc: You can tweak the wires and it really changes the sound.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=885
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 885
+- title: siren x
+  desc: lfo patch outside
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=909
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 909
+- title: Ingrese aquí Título
+  desc: Introduzca su descripción aquí, o dejar en paz a tener ninguno.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=913
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 913
+- title: arping scape 1
+  desc: just play with it !
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=914
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 914
+- title: back organ
+  desc: just play with it !
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=917
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 917
+- title: Back organ pipe
+  desc: just play with it !
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=918
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 918
+- title: bouncer bass 1
+  desc: drive it mad
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=921
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 921
+- title: EPO for sequencer
+  desc: 'start sequencer and play with : Mod, env Decay, Env Amt, Pattern, ...'
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=931
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 931
+- title: EPO nacho perc
+  desc: 'Tune fine : Cutoff. Might be interesting with sequencer.'
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=932
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 932
+- title: EPO synt growler
+  desc: Octave -1Mod at 25%
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=933
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 933
+- title: EPO cycl and glid subMet synt ss
+  desc: Octave -1Mod 100% !(heavy sound)
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=934
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 934
+- title: c a c a# c a c a2#
+  desc: Experience
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=938
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 938
+- title: TAikatalvi
+  desc: Theremin Lead
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=962
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 962
+- title: Shuffle
+  desc: Retro Lead
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=963
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 963
+- title: Mörkö!
+  desc: Sting-y, bite-y & distort-y Lead
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=964
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 964
+- title: "Älä"
+  desc: Pleasant Little Lead
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=965
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 965
+- title: Plucky Stars
+  desc: Very Plucky sounding in the lows but twinkly in the highs. Resonance and brute
+    factor are finicky so play around with them to get it to not squeak.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=966
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 966
+- title: PARADISE BASS
+  desc: 'This patch sounds very much like Coldplay''s "Paradise" bass they use in
+    the chorus. You might mess iwht the ENV amt to get it just right. '
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=968
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 968
+- title: Woob Woob bass lfo
+  desc: cose dubstep a caso
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=971
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 971
+- title: Lead 2
+  desc: Bright lead with marked filter env. 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1002
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1002
+- title: Lead 2
+  desc: Bright lead with marked filter env.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1003
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1003
+- title: Bass LF
+  desc: Bass mit summ
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1011
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1011
+- title: PsicoChino
+  desc: Sonido psicodelizante que se va enchinando usando el amount hasta que termina
+    en un sonido tipo guzheng.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1023
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1023
+- title: BS Gnarly
+  desc: Nasty electro bass. Use the ModW to widen the sound a bit.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1025
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1025
+- title: Big talk bass 
+  desc: Anthemic hip hop intro bass 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1043
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1043
+- title: Inferno 123
+  desc: Square adds edge and LFO wobble
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1054
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1054
+- title: Royce's BIG LEAD
+  desc: First ever patch created by me on a borrowed Microbrute.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1056
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1056
+- title: MACROBRUTE
+  desc: Everybody to the limit!
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1059
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1059
+- title: JM tremolo
+  desc: MW à 0
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1064
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1064
+- title: Rectangle
+  desc: env et lfo sur rien, mw à zéro
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1066
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1066
+- title: manga
+  desc: augmenter MW.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1072
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1072
+- title: PYT
+  desc: A first attempt at PYT by Michael Jackson, started with my settings from my
+    Volca Bass, and adjusted.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1081
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1081
+- title: MERCY by duffy
+  desc: Of cause the original has those Casio sounding 'orchestra hit' sounds, or
+    at least that's what it sounds like. But this sounds pretty reasonable to me.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1082
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1082
+- title: Somthing to test
+  desc: Move cutoff/res
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1083
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1083
+- title: Analogue arp
+  desc: Use arpeggiator, play with high res and some cutoff
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1085
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1085
+- title: Take on me
+  desc: A basic Saw for Aha
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1086
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1086
+- title: Agressive cutoff
+  desc: Play with Cutoff, usefull for leads and shit
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1101
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1101
+- title: mothersbaugh
+  desc: MW à blok.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1104
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1104
+- title: Acid stuff
+  desc: Play a continuous G2 and tweak "Rate" and Modwheel to altern rythms. Also
+    tweak other stuff like reso.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1109
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1109
+- title: Tell it to my heart
+  desc: Basic Saw with some Filter LFO. Does the trick.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1111
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1111
+- title: SHAKY
+  desc: MIDI sync, occasional 1/2 time LFO
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1120
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1120
+- title: sly
+  desc: bass
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1133
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1133
+- title: 1 For sequencer
+  desc: designed to be used with sequencer
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1138
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1138
+- title: 2 for sequencer
+  desc: sequencer pattern is just repetition of the same note
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1144
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1144
+- title: francolamuerte lfo matrix
+  desc: see Francolamuerte tuto3
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1145
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1145
+- title: hard bass
+  desc: Play modwheel
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1169
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1169
+- title: brutekorg
+  desc: Microbrute processing by Microkorg (using internal arpegiator).
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1187
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1187
+- title: Enter Here
+  desc: To play with sequencer in a high rate.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1189
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1189
+- title: the slow ring
+  desc: Mod. wheel to 45 aprox.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1191
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1191
+- title: Test 1
+  desc: Enter your description here, or leave alone to have none.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1201
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1201
+- title: graowl
+  desc: technoish deep growl, play with cutoff
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1204
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1204
+- title: Sadharmonica
+  desc: LFO steckt aber ist nicht angeschlossen. Ohne LFO ebenso guter Sound. 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1206
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1206
+- title: Percussive Overtones
+  desc: Also great for drum sound
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1207
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1207
+- title: Cool sound!
+  desc: C C C C E C C C C E C C C C E C
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1219
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1219
+- title: Wobbling bass
+  desc: Bass synch to LFO. Sound by xtronic
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1220
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1220
+- title: Modern theremo
+  desc: SAS Sound for higher Noltes. By xtronic 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1221
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1221
+- title: Hammer-on
+  desc: Similar to the high-gain amp/drive tone from a lead guitar. Good for 100-120bpm
+    range.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1228
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1228
+- title: Brassy OD BaSS
+  desc: Good crunchy bass in lower octaves. Try VAC in Gate mode for mid/high oct
+    for cutting lead tone. (great with a little delay).
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1229
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1229
+- title: Arp wheel
+  desc: Good multi octave general purpose arp sound; play with ADSR to get the right
+    "plucky" sound. (great with some post delay).
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1230
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1230
+- title: ARP 2600
+  desc: Nice cutting seq. tone, great for arpeggios, good on all octaves, Lower Sustain
+    and Release to zero, then slowly increase over a phrase. (sounds so classic w/
+    some delay).
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1231
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1231
+- title: Gnarly tri-tone
+  desc: Some Overtone heat, extra hollow tone from Sq. and wet VCF action. Great in
+    -1 and '0' octave settings. Best position of Mod Wheel is in the lower 40%.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1232
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1232
+- title: Cello
+  desc: Not really but still
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1245
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1245
+- title: em-bassy
+  desc: not the best bass but worked for me
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1251
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1251
+- title: Cool sound
+  desc: Tweak filter
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1252
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1252
+- title: Saw Bass Arp for 0nitial
+  desc: with PointBlank FunkyARP + RiffGenerator
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1253
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1253
+- title: triangle + saw Bass for 0nitial
+  desc: with Pointblank FunkyARP +Riffgenerator
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1254
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1254
+- title: Softer pad
+  desc: adjust KBD Tracking, LFO Amount/Cutoff with mod wheel for variation. Would
+    like to patch LFO to Filter + Sub, but lack stackable cable to experiment currently.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1269
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1269
+- title: Soft and deep Prodigy
+  desc: 'Trying to emulate LSW''s Moog Prodigy patch from LSW blog video #10 - Only
+    exclusions are being able to shift VCO''s an octave + 3rd interval on the saw,
+    but I still like the patch. Open''s up nicely with a little reverb.'
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1279
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1279
+- title: Moderate saw
+  desc: C by  xtronic 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1298
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1298
+- title: Fruity Brain Lead/ Pitch Bent DEmon
+  desc: pitch bent demon
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1301
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1301
+- title: Squarekick
+  desc: Turn LFO Retrigger ON. 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1311
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1311
+- title: Chakra-noise
+  desc: About the patch used to create Chakra song 1.Keeping cutoff & resonance where
+    they are and putting LFO rate to almost musical, then turning Metalizer to get
+    background stuff,foreground stuff is about the patch now, just wary Cutoff to
+    get the effect.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1331
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1331
+- title: Mod wheel control
+  desc: Permet de contrôler la hauteur des notes avec la Mod Wheel
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1339
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1339
+- title: boombass
+  desc: low bass loves ass
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1357
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1357
+- title: Gliding fifth bass
+  desc: Dance style fifth bass with portamento. Get down with it!
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1384
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1384
+- title: boyfriend
+  desc: My boyfriend talks. I listen to this patch instead.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1398
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1398
+- title: trance bass
+  desc: set pattern and modulate to go from low cutoff to fully open for big bass
+    line swells.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1403
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1403
+- title: The ROBOTS
+  desc: We are the robots E D E D E G
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1405
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1405
+- title: Don't you love me baby?
+  desc: Oooh
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1413
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1413
+- title: JONWAYNE - backflip
+  desc: 1°partie = octave(-2) et attack(0), avec modwheel pour de la basse qui crache.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1417
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1417
+- title: EERO JOHANNES - "Alternate Virtuality"
+  desc: la si ré mi fa# la si
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1453
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1453
+- title: EEOR JOHANES - "Alternate Virtuality" 2.0
+  desc: Un son plus rond
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1456
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1456
+- title: wabwabwab
+  desc: fuck with the metalizer and rezo
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1457
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1457
+- title: High Saw 
+  desc: "©xtronic 2014"
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1467
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1467
+- title: Sweep Bass
+  desc: Sweep the lowpass filter
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1498
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1498
+- title: MB1
+  desc: Bass 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1500
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1500
+- title: MB1
+  desc: Bass
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1501
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1501
+- title: Ambient Pressue
+  desc: A.k.a Song Project
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1504
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1504
+- title: Wooww
+  desc: Woow "Come over here".
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1534
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1534
+- title: Woow
+  desc: Woow "come over here"
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1535
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1535
+- title: bass的な、
+  desc: MiyakawaMasaru
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1536
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1536
+- title: HOTLINE MIami - Sun Araw - Horse Steppin
+  desc: FA - RE - DO
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1551
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1551
+- title: RISK OF RAIN OST ~ 15'00
+  desc: SIb - DO - MI - FA - (sol)
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1553
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1553
+- title: My Little Acid Machine
+  desc: Play around with the cutoff, as the sequence goes through!
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1563
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1563
+- title: dingdong
+  desc: some overtones left
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1587
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1587
+- title: bAD rectangle
+  desc: LFO et Env sur rien, MW à toc
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1608
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1608
+- title: CutTY Stank
+  desc: lead.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1613
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1613
+- title: Warm Tits
+  desc: So warm and comforting
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1614
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1614
+- title: Patched?
+  desc: A Square wave bass with metalizer for distortion, a nice little pwm lfo vibrato
+    for a 8bit feel and yeah. play around with this because this is from memory 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1615
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1615
+- title: Patched?
+  desc: A Square wave bass with metalizer for distortion, a nice little pwm lfo vibrato
+    for a 8bit feel and yeah. play around with this because this is from memory 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1616
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1616
+- title: amadeus
+  desc: LFO et Env sur rien, MW à 0
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1617
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1617
+- title: Son 1
+  desc: Pour la première séquence
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1644
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1644
+- title: Cheesy sci-fi lead
+  desc: Nice lead with slight overtones, a fair amount of glide and some cheesy vibrato.
+    Bring on the little green men.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1648
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1648
+- title: Henric testar
+  desc: Kort beskrivning
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1657
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1657
+- title: C3
+  desc: Pad z reverbem do kawałka basiątko
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1663
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1663
+- title: Nullsleep bass
+  desc: Use this for the bass line from "Galaxy Tonite"
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1668
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1668
+- title: bad rectangle
+  desc: Env et LFO sur rien, MW à toc.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1679
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1679
+- title: ALKJD
+  desc: Bass is not the place
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1684
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1684
+- title: Witch House Sequencer Patch
+  desc: Sounds pretty cray
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1686
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1686
+- title: MB-303 Bassline
+  desc: Awesome emulation of a Roland TB-303. Setting the filter like this allows
+    the mod wheel to give some amazing filter adjustments, making this suitable for
+    any 303 sounds. I very highly recommend sending this through a mild overdrive
+    to give it that deep, squelchy sound. ENJOY!
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1687
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1687
+- title: Lazerhawk - Visitors [Full Album]
+  desc: 7'20''
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1712
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1712
+- title: Terror
+  desc: KLAPPERUH!!!!!!!
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1713
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1713
+- title: Asian Strings
+  desc: short asian sound 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1724
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1724
+- title: NOGO
+  desc: Test
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1744
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1744
+- title: Wrong number - M.O.O.N. - DUST
+  desc: droite du keyboard, pitch sur DO^ - LA
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1761
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1761
+- title: ARTURIA 808 I 909
+  desc: Podaj swój opis tutaj, lub zostawić mieć żadnego.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1764
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1764
+- title: Wobble Teet
+  desc: Work in progress
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1765
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1765
+- title: HM2 - Blizzard (son à 1'20'')
+  desc: Attention, les réglages de cutoff, ENV Amt, Brute Factor et KBD tracking sont
+    super précis. Bosser l'en Amt en fonction du Cutoff.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1768
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1768
+- title: Witch disco breakdown
+  desc: Play with the mod wheel for screeching!
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1771
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1771
+- title: fad
+  desc: Faire venir le LFO Amount et Pulse Width et Overtone.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1775
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1775
+- title: Et
+  desc: Jouer avec résonance, overtone, brute, PWM.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1776
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1776
+- title: 70's Floyd
+  desc: Mellow lead tone inspired by Rick Wright.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1777
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1777
+- title: Bob!
+  desc: test patch
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1789
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1789
+- title: Bob!
+  desc: test patch
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1790
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1790
+- title: 1:50:54 Scattle - Remorse
+  desc: encore de la pitchwheel à balle, un truc du genre DO^ - SOl# - FA en pitch
+    wheel+ et ensuite en normal
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1795
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1795
+- title: Test
+  desc: Enter your description here, or leave alone tote stet have none.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1800
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1800
+- title: Test
+  desc: This site is awesome!
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1803
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1803
+- title: GIORGO SEQ
+  desc: SECUENCIA GIORGIO MORDORER HERNAN
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1813
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1813
+- title: glitch_hop
+  desc: Mod 40%
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1814
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1814
+- title: Thriller toum toum
+  desc: Mod 30%, do# x 2
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1815
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1815
+- title: lololololol
+  desc: Mod 0%, play C2
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1816
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1816
+- title: fart
+  desc: sounds like shi... Smells like fart.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1827
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1827
+- title: Fart
+  desc: Looks like shi.... Smells like fart!
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1829
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1829
+- title: RAW BLEED BASS
+  desc: it's in the title :) 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1843
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1843
+- title: Test
+  desc: testing
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1857
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1857
+- title: cricrie
+  desc: truc vide
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1860
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1860
+- title: Cool Echo Effect
+  desc: Patch LFO to both metal and filter. Put mod wheel to the top. 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1861
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1861
+- title: Bass lead
+  desc: Growling Bass Downwards
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1862
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1862
+- title: Brüüütal!
+  desc: BD, SN feel on the sequence, heavily distorted!
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1865
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1865
+- title: Basic Patch
+  desc: The "basic patch" from the Arturia MicroBrute manual.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1881
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1881
+- title: Envelope->filter, LFO->SAW
+  desc: 'Gritty filter sound on keydown, smooth triangle wave '
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1882
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1882
+- title: Beastly blue Echo
+  desc: MIDI clock from computer at 110. LFO patched to both metal and filter. Mod
+    wheel up at the top.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1887
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1887
+- title: 909 Kick
+  desc: Vary the Env amount, Sustain & Release times to set up different styles of
+    kicks
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1894
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1894
+- title: Bass drum
+  desc: Reasonably nice Bass Drum
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1906
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1906
+- title: This is a test
+  desc: This is a test
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1909
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1909
+- title: Soft horny
+  desc: the pulse width is just a tiny bit above the 1, since it goes below the 1.
+    sounds like a dull french horn. dial back the brute factor for more highs.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1911
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1911
+- title: fauxdelaystrike
+  desc: manipulate attack, metal, etc. for variation. release controls length of "delay"
+    effect, rate knob(s) control delay time, etc.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1936
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1936
+- title: underbass
+  desc: for layering under more complex bass sounds; simple but a bit more interesting
+    than a sine sub
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1940
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1940
+- title: chainsaw_sweep_bass
+  desc: won't hear anything as set above, have to sweep the RESO and CUTOFF knobs
+    downward through a bunch of glittery fuzz, when both are turned all the way left
+    a heavily distorted, angry bass saw sound is revealed. Dial BRUTE to the left
+    to reduce distortion; dial filter section ENV AMT to the left to darken and reduce
+    (right to brighten and expand), envelope section ENV AMT left to manipulate Ultrasaw
+    resolution... etc. Awesome for angry, violent bass.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1942
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1942
+- title: InfraBass
+  desc: big fat bass 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1943
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1943
+- title: slow bottom entry
+  desc: play with  env amt subtly + env decay
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1955
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1955
+- title: space lead
+  desc: blackhole + staccato/legato
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1960
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1960
+- title: anitron
+  desc: bajo
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1966
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1966
+- title: spacegrunt_fx
+  desc: set just as shown press a key and sweep the cutoff to the right. creates a
+    bizarre grainy "blast-off" sound effect. you can hear the harmonics bouncing if
+    you go slower.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1971
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1971
+- title: EDGY
+  desc: modwheel
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=1975
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 1975
+- title: badasstlap
+  desc: trap lead
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2008
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2008
+- title: Waspish
+  desc: Noisy lead that breaks up after 10secs or so
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2013
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2013
+- title: Moving wave
+  desc: 'I like this one '
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2018
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2018
+- title: Moving wave
+  desc: 'I like this one '
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2019
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2019
+- title: Enter Titlefgdfg Here
+  desc: Enter your description here, or leave alone todgfg have none.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2022
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2022
+- title: banjopipe solo 
+  desc: To go with bass 3 keys 1 beats 2
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2026
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2026
+- title: BEZSENSOWNIE - bas
+  desc: Można operować kółkiem, żeby zmieniać cutoff, można zmienić attack na długi
+    też jest fajnie
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2041
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2041
+- title: YOMAY - Sam na Sam
+  desc: Kółkeim zmiana Cutt off
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2042
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2042
+- title: edgy
+  desc: modwheel + mode
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2049
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2049
+- title: brass
+  desc: modwheel
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2050
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2050
+- title: talk to riches
+  desc: to riches = mod max + triangle0 + res/envamt/lforate50% + att0dec1/2
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2052
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2052
+- title: step by step
+  desc: try octaves
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2076
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2076
+- title: hard hit - high tail
+  desc: play kbd track for tail + "chorus space"
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2077
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2077
+- title: YomAY_01
+  desc: Mozna bawic sie filtrem
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2095
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2095
+- title: Harpsichord
+  desc: Vibrato with LFO
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2101
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2101
+- title: Fat Metal Bass
+  desc: 'A nice deep fat metal bass :) first preset i made '
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2111
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2111
+- title: Air Cal BASS
+  desc: It's not perfect, but it works fine along the music.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2112
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2112
+- title: Test
+  desc: Test
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2116
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2116
+- title: Warm fuzz
+  desc: A warm and fuzz square wave.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2122
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2122
+- title: 80's SPace Voyage
+  desc: Seriously its like I'm in a 80's/90's space movie. Its an amazing sound. For
+    more variations adjust the ENV Amount and the Cutoff to get a slew of other good
+    space soundscapes.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2123
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2123
+- title: DAF1.mbseq
+  desc: use modwheel
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2126
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2126
+- title: Evolving Bass
+  desc: Long and evolving
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2135
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2135
+- title: SyntHdrum
+  desc: D-3 = Base
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2139
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2139
+- title: Synthdrum 2
+  desc: LFO to Gate IN
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2140
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2140
+- title: Fat Keyb
+  desc: Good old fat synth
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2146
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2146
+- title: I feel Love (Donna Summer)
+  desc: 'tempo ~120, pattern record is : C Eb F F, check carrefully sequencer rate
+    and lfo rate, '
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2155
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2155
+- title: Wave I
+  desc: Play with mod wheel
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2156
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2156
+- title: First track
+  desc: first-track-test
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2173
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2173
+- title: Enter the square
+  desc: I use this for sequenced parts.To be used live with mod wheel and evolving
+    AdsR
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2174
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2174
+- title: '"flute"'
+  desc: te-te-telekenisis
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2181
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2181
+- title: qt lead
+  desc: qt lead
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2182
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2182
+- title: DRONE BASS
+  desc: Si può agire sull'attacco diminuendolo
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2183
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2183
+- title: Test
+  desc: not a real patch
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2186
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2186
+- title: Proto Detroit Bass
+  desc: Best used with a Sequence going and live cutoff modulating via wheel. Enjoy!
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2193
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2193
+- title: Singing Pipe
+  desc: A sound best used for melodies and solos.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2208
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2208
+- title: Dean man Bass
+  desc: "©xtronic"
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2211
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2211
+- title: Da Funk synth
+  desc: Un simile del synth su Da funk dei Daft Punk
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2213
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2213
+- title: Adja Cím Here
+  desc: "Írja be a leírása itt, vagy hagyja egyedül, hogy nincs."
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2217
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2217
+- title: Adja Cím Here
+  desc: "Írja be a leírása itt, vagy hagyja egyedül, hogy nincs."
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2218
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2218
+- title: microbrute
+  desc: "Írja be a leírása itt, vagy hagyja egyedül, hogy nincs."
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2219
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2219
+- title: carrot patch
+  desc: patch for carrot project
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2221
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2221
+- title: Sci Fi Hits
+  desc: Usato nei vecchi film azione anni 80
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2229
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2229
+- title: melanco italo
+  desc: arp type italo
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2243
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2243
+- title: fdaf
+  desc: bass
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2260
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2260
+- title: fdaf
+  desc: Enter yourfdafddescription here, or leave alone to have none.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2261
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2261
+- title: Enter asdHere
+  desc: Enter your description here, or leave adalone to have none.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2269
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2269
+- title: Be Above it
+  desc: Similar to the sound used in "Be Above It", by Tame Impala
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2273
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2273
+- title: The RLS - Dufflesplit
+  desc: Sequenced modulation for variable cutoff, manual cutoff 0-50%, manual decay
+    0-10%
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2289
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2289
+- title: Light Noise Bass
+  desc: Thick bass with long decay and a sprinkling of noise.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2317
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2317
+- title: American Song
+  desc: Patch gate out to gate in. Play a G.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2318
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2318
+- title: Resonant pwm bass
+  desc: An incredibly fat, phasing bass that sounds great across the range of the
+    modulation wheel.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2331
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2331
+- title: pueba1
+  desc: Introduzca su descripción aquí, o dejar en paz a tener ninguno.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2345
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2345
+- title: test
+  desc: test
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2348
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2348
+- title: Song 1
+  desc: Settings for Blue Microbrute
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2353
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2353
+- title: Song 1
+  desc: Settings for White Microbrute
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2354
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2354
+- title: Song 1
+  desc: Settings for Blue Microbrute
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2355
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2355
+- title: SHINE ON
+  desc: Close to Richard Wright's synth in Shine on You crazy Diamond
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2373
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2373
+- title: TAKE ON ME
+  desc: In style of A-ha
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2380
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2380
+- title: FunkY Synth Bass
+  desc: A moogish classic synth bass.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2399
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2399
+- title: Planet Bass
+  desc: Best results when synced with Kickdrums.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2400
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2400
+- title: Dystopian Sweep
+  desc: Use ModWheel to sweep through the deserted remains of human cities.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2404
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2404
+- title: Warpy Pursuit
+  desc: "'80s pursuit music."
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2414
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2414
+- title: Cymbalurl
+  desc: MW à bloc
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2425
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2425
+- title: SNORKY
+  desc: LFO et env. sur rien
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2426
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2426
+- title: Title
+  desc: Description
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2451
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2451
+- title: Basic Deep rez FX
+  desc: Add Verb or Delay.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2492
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2492
+- title: Basic Deep rez FX
+  desc: Add Verb or Delay.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2493
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2493
+- title: FM 1
+  desc: Basic FM Lead
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2499
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2499
+- title: random#001
+  desc: série de patches aleatórios para testar no microbrute.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2500
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2500
+- title: Fm Lead1
+  desc: Distortion lead
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2503
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2503
+- title: clams Casino - Motivation
+  desc: Do^ - FA - Fa - - Fa - Do^ 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2509
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2509
+- title: MOdem Noises (Basic)
+  desc: Sweep the filter to find sweet spots works great with pitch bend.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2515
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2515
+- title: Space Chomper
+  desc: You gonna get eaten.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2516
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2516
+- title: 'chiness bell '
+  desc: utiliser avec de la reverb
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2544
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2544
+- title: scie musicale - jpp
+  desc: Molette "Mod" sur minimum ... puis activation du séquenceur :-)
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2545
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2545
+- title: lead vibrato
+  desc: Jouer avec le "LFO Rate"Molette "Mod" sur minENJOY !
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2548
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2548
+- title: RöYKSOPP BASS
+  desc: 'Arp: A-B-C-E'
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2549
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2549
+- title: lead "exciter"
+  desc: Jouer avec le LFO Rate ...
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2562
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2562
+- title: Grrrrr
+  desc: Mod wheel fun
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2589
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2589
+- title: DnA Song 2
+  desc: White Microbrute Settings
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2599
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2599
+- title: 80's Sequence
+  desc: Programmed by Maschineneist
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2603
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2603
+- title: acid bass seq
+  desc: Programmed by Maschinengeist
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2608
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2608
+- title: acid bass seq.
+  desc: Programmed by Maschinengeist
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2609
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2609
+- title: 8-bit lead
+  desc: Fine-tune LFO Amount so that the pitch is modulated to an octave above the
+    note played. Fun to experiment with LFO rate, a little glide can be fun too. Overtone
+    at min makes a cleaner lead sound for higher octave notes, at mid makes a rounded
+    overall sound that is useful for lower notes, and at full blast makes a really
+    gnarly sound that might be useful for bass bleeps.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2611
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2611
+- title: BRAIN
+  desc: Custom pattern
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2613
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2613
+- title: TIMPANI
+  desc: Timpani sound for Microbrute
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2614
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2614
+- title: ebm bass
+  desc: Programmed by Maschinengeist
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2615
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2615
+- title: Darke age
+  desc: Jouer avec Env Amt et Cutoff. Ajouter Overtone à bloc à un moment.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2619
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2619
+- title: industrial bass sequence
+  desc: Programmed by Maschinengeist
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2620
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2620
+- title: Pattern 8 PEAS
+  desc: Pattern 8 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2621
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2621
+- title: Clap
+  desc: Be sure that you have the mod wheel to the max and 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2622
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2622
+- title: BLOWED
+  desc: blow your head
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2628
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2628
+- title: Phatter Bass
+  desc: Mod the Fat Bass id=116 a bit
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2633
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2633
+- title: PATTERN 5 PEAS
+  desc: Elephant melodic
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2635
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2635
+- title: s
+  desc: sdsd
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2638
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2638
+- title: BACKWARDS BASS
+  desc: RANSOME NOTE PATCH
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2650
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2650
+- title: Toms
+  desc: Chromatic toms
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2653
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2653
+- title: KANAR
+  desc: JOuer avec Attack, KB tracking, Env Amt
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2654
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2654
+- title: THOR
+  desc: Overtone.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2672
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2672
+- title: 80s V4
+  desc: Mod wheel à 1/4
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2673
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2673
+- title: optimus
+  desc: Overtone.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2674
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2674
+- title: Old school funk
+  desc: Mod Wheel approx. 20% 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2676
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2676
+- title: 80s v4
+  desc: jouer avec la modwheel, cutoff, reso et brute factor
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2681
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2681
+- title: flute
+  desc: modwheel 1/4
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2690
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2690
+- title: Sawlead
+  desc: G Ab Bb Cb
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2697
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2697
+- title: "#LA "
+  desc: Brute noise
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2699
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2699
+- title: Cool Sound?
+  desc: Arp that bitch c1-c2-c3-c2
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2710
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2710
+- title: 80s v6
+  desc: modwheel 1/4
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2716
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2716
+- title: 80s V7
+  desc: 'MW max (no cutoff), seq n°3 : C3 B2 A2 E2 C2 B1 A1 A0'
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2717
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2717
+- title: raspy nin bass
+  desc: Enter yoe alone to have none.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2727
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2727
+- title: violons
+  desc: hof room, lvl 3h, dec 2h, tone 4h
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2730
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2730
+- title: Cutting Rat
+  desc: A harsh HPF Bass/Lead, that sounds best with a chorus effect.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2738
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2738
+- title: phat beat
+  desc: Use with sequencer with a kick drum pattern
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2742
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2742
+- title: vibrato old lead
+  desc: play with resonance, filter ENV AMT, LFO amt/rate
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2749
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2749
+- title: Brass Trumpet
+  desc: Merely represents the character of a Trumpet, best used as Solo Instrument
+    with some early reflection type reverb effect.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2754
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2754
+- title: DBFC1
+  desc: Mw
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2757
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2757
+- title: DREAM LEAD 1
+  desc: MODWEEL ULTRASOFT
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2764
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2764
+- title: BRUTEBASS1
+  desc: DEEPBASS
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2765
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2765
+- title: Percussive Lead
+  desc: A2
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2766
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2766
+- title: Ring blaster
+  desc: Ring or laser blaster or something like that
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2769
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2769
+- title: AC SD OD
+  desc: A non Hifi Snare Drum
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2771
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2771
+- title: Rim SD
+  desc: A Snare with a woody Attack.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2772
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2772
+- title: Distored Bass
+  desc: Arp it on octaves
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2778
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2778
+- title: Dark 5th Detuned Pad
+  desc: As heard in T-La Rocks "Lyrical King". Just add some broad Chorus Effect :)
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2784
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2784
+- title: PlastaKast
+  desc: 'Riff for PlastaKast. '
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2792
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2792
+- title: DEATH GRIPS
+  desc: Heavy as fuck 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2836
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2836
+- title: Stupid Vocal lead
+  desc: The first patch I made with the new 1-to3 wires for expanding the matrix possibilities.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2856
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2856
+- title: Calcium Carbonate Structures
+  desc: Bass
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2860
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2860
+- title: tony
+  desc: Env sur rien, ajouter LFO Amt par moment.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2863
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2863
+- title: No Tardis
+  desc: Play with LFO Amount and LFO Rate; VCA ENV Amount bring some interesting effects
+    too. Some nasty sound can be obtained tweaking the FILTER ENV Amount.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2864
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2864
+- title: Embrague
+  desc: Start with the Mod Wheel at the Max position and move it slowly to Min.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2865
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2865
+- title: saw reminition
+  desc: premiere saw remition 29/04/2015
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2870
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2870
+- title: pad high
+  desc: patch02
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2871
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2871
+- title: tresor bass
+  desc: son du demo mussikmesse2015
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2872
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2872
+- title: Stalegatto lead
+  desc: Behaves differently depending on the playing style (legato or staccato). Try
+    changing the LFO Rate to add interesting oscillating effects.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2883
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2883
+- title: Resonating dignity
+  desc: Move Mod Wheel to alter Overtone tonal characteristics.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2884
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2884
+- title: Feedback supreme
+  desc: Start playing with the Mod Wheel in the mid position and move up for a distorted
+    sound or down for a clean sound. 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2890
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2890
+- title: Selfoscillating
+  desc: Press and hold keys on the upper half of the keyboard and let the sound evolve.
+    Use Mod Wheel for interesting sonic devastation effects.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2892
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2892
+- title: Hypnotic golondrina
+  desc: Hold notes and introduce changes slowly moving FILTER Cutoff, LFO Amount,
+    ENV Env Amt
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2899
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2899
+- title: Uforgan
+  desc: Use Mod Wheel to add some movement to the sound.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2900
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2900
+- title: Icanfly seq
+  desc: 'Use with Minibrute preset sequence #2 to get the idea. The filter is controlled
+    by the Mod Wheel adding interesting movement to any 16th note sequence. '
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2904
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2904
+- title: Funkalizer
+  desc: Clavinet style lead for a funky touch.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2908
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2908
+- title: LP
+  desc: Env sur rien.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2909
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2909
+- title: Solo rasoir
+  desc: Move Mod Wheel to sharpen...
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2910
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2910
+- title: Energizer
+  desc: 'Hold a note around middle C on the +1 octave and slightly move FILTER ENV
+    Amount and FILTER KBD Tracking. Use with Microbrute default sequence #2 or similar.'
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2911
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2911
+- title: CLAIRE
+  desc: Augmenter sustain et release sur la fin ternaire ?
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2914
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2914
+- title: sadspire bass
+  desc: Certain notes of this patch give me a feeling of desperation... and others
+    give me the sensation of a bright tomorrow.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2915
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2915
+- title: Classeq
+  desc: Slowly increase LFO amount for an interesting note filtering out. 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2916
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2916
+- title: TB303 squirts
+  desc: Regulate DECAY/ CUTOFF/ RESONANCE/ ENV Amt for 303 soundsAnd glide for slide
+    effect (by pressing second key while holding first one)Use saw or square wave.Mod
+    matrix settings - for your own needs.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2925
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2925
+- title: Renate
+  desc: Works well in all octave settings. Use Mod Wheel to control the filter cutoff.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2933
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2933
+- title: nouvel ordre
+  desc: Move up and down the envelope release to change order
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2935
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2935
+- title: evils fast horror
+  desc: das MOD.-wheel am besten auf mitte stellen.........dann dazu experimentieren
+    beim lfo.............cutoff und release auch sehr nett
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2941
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2941
+- title: Snare
+  desc: Snare Wire Amount = Cutoff, Snare Body = Saw, Snare Wire Tension = Resonance
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2945
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2945
+- title: testing title
+  desc: testing descition
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2947
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2947
+- title: Enter Titlvgcvce Here
+  desc: Enter your description herevcvcvcvc, or leave alone to have none.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2950
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2950
+- title: 'Electric fop '
+  desc: Harpsichord Vibe
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2957
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2957
+- title: Moving Bass
+  desc: Bass with a lot of movement. Brute Factor adds a nice low end thickness.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2965
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2965
+- title: Don't touch that modwheel bass
+  desc: A tamed beast
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2967
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2967
+- title: Do it, dyuwit
+  desc: play w/mod wheel
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2972
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2972
+- title: soft Ultrasaw
+  desc: Use with a lead sequence that has bass steps in it to let the Filter KBD Tracking
+    shine. For even more epicness introduce some filter delay with the mod wheel.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2973
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2973
+- title: Deep Growly Bass
+  desc: Play in the lower octaves to hear a throaty, subtly moving bass growl that
+    opens up as you hold a key down. Play it loud!
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2975
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2975
+- title: I will look up
+  desc: Use sequences for 1st chorus and bridge
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2982
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2982
+- title: Synthetic bells 
+  desc: It sounds like the bell rung by the local church to signal to beggining of
+    the mass.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2987
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2987
+- title: ARGYLE at midnight
+  desc: everything at 12:00, and a sock-like patch...ha!.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=2994
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 2994
+- title: Mini Moog style synth
+  desc: Add verb and delay externally 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3004
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3004
+- title: 70's Style Synth
+  desc: add verb and delay 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3005
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3005
+- title: Bass Arp
+  desc: Mod for filter release for longer sustained arp add external fx
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3006
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3006
+- title: vintage mod bass 
+  desc: add verb + delay + mod wheel 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3008
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3008
+- title: Bass arp
+  desc: run micobrute connection on saved bass arp sequence- manipulate
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3013
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3013
+- title: LFO Bass SEQ
+  desc: Record a simple octave up/down bass pattern and play with the mod wheel to
+    taste.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3017
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3017
+- title: high pass seq synth
+  desc: mod 1/4 way up change patterns and rate for different seq
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3085
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3085
+- title: bass arp
+  desc: mod wheel slight bit down for best sound
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3087
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3087
+- title: Bass seq release up/down
+  desc: mess with release up and down for longer or shorter note 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3089
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3089
+- title: Little Droplets
+  desc: Sounds like splashing your sequences on water.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3091
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3091
+- title: Old Phone Tones
+  desc: 'Sequence 4 : Pitch Bend, Filter Mode (prudence Cutoff en mode LP)'
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3106
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3106
+- title: Pink Floyd Mellow lead
+  desc: Original found @ Youtube
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3108
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3108
+- title: SEQ TA MERE
+  desc: By Simon Paris
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3114
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3114
+- title: le banc
+  desc: by Simon Paris
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3117
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3117
+- title: Electric BELL
+  desc: ADD REVERB & DELAY, AND YOU'RE GOOD TO GO
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3118
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3118
+- title: soft agression
+  desc: unstable soft distorted with mod wheel down - add some echo / space effect
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3124
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3124
+- title: 90'S swagdunk 1337
+  desc: KBD för mer hårt, metalizer funkr också
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3130
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3130
+- title: Strange Interference
+  desc: Metalizer is lovly with a lot of resonance on it.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3135
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3135
+- title: overdrive
+  desc: Guitar-like preset
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3138
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3138
+- title: Corrosion
+  desc: Mess with the Overtone and the Metalizer
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3139
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3139
+- title: all you really wanted 
+  desc: fat bass
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3145
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3145
+- title: Gattobus demo 20150515
+  desc: See video: https://www.youtube.com/watch?v=VsHW4ILSAhQ
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3159
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3159
+- title: Gattobus - 80's Sunset Boulevard
+  desc: View: https://www.youtube.com/watch?v=2ffVcmkDmGw
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3161
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3161
+- title: Sonicstate Arturia Jam Through Guitar Pedals
+  desc: View: https://youtu.be/SXdicEqlrNE
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3162
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3162
+- title: ARTURIA Microbrute SE - Gattobus DEMO
+  desc: View: https://youtu.be/VsHW4ILSAhQ
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3163
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3163
+- title: The Robots BL - Kraftwerk
+  desc: View: https://youtu.be/z900sXr3bf0
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3164
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3164
+- title: Russian Corvette
+  desc: View: https://youtu.be/1cbmg1b0FWM
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3165
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3165
+- title: Dark clarinet
+  desc: Subtle lead
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3166
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3166
+- title: Message to Spaceman
+  desc: Play with the modwheel in a very close to "Min" position.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3195
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3195
+- title: Analog til i die
+  desc: MOD WHEEL is used heavily to create the space for the patch while playing
+    or sequencing, requires 3 cables from the lfo to sound proper and as I intended/designed.
+    i also run a very small amount of delay behind it, you could add lots i suppose
+    but how useful that would be would depend on what you wanted from it. A great
+    fat lead low octaves and pronounced lead from mid-higher octaves :-) 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3198
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3198
+- title: Noise source-sNARE, CLAP ETC
+  desc: OK, well this gives us the chance to have noise osc based FX which we don't
+    have as standard. Using the env amt dial, more clockwise gives more hat like effects
+    and more counter clockwise is snare based, this is because more of the noise from
+    the lfo modulation is being allowed through the filter the removal and addition
+    of the fifth and overtone dials also adds more or less boom and tone to the snare, 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3199
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3199
+- title: Stardancer
+  desc: Strictly it's a lead, but could be much more powerful with additional patching.
+    Esp. great with tri & metal. Use it on all octaves with mod wheel turned on.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3248
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3248
+- title: Ivy's distorted dive bomb
+  desc: Ivy's distorted dive bomb, created on June 9th, 2015.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3252
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3252
+- title: SYNCED KICK
+  desc: Patch LFO to Gate In. Press C1 to get base pitch. Play with Rate.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3253
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3253
+- title: Dr. who
+  desc: Yeah, that very sound, a bloody brilliant, spooky lead. Glide is important!Use
+    mod wheel while playing legato. Depress key at the end & 'EXTERMINATE!'
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3258
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3258
+- title: Enterkjkjk Title Here
+  desc: Enter your desck,kjription here, or leave alone to have none.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3284
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3284
+- title: CRystal or Bass
+  desc: 'Vintage Schulze, Dream: Schulze Crystal in the very highs, TD Bass Sequence
+    in the bass'
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3300
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3300
+- title: Tri-mover
+  desc: Beatstep CV-out -> Filter-in is essentialTry moving LFO Rate with mod wheel
+    up
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3312
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3312
+- title: Tri-mover 2
+  desc: Experiment with envelope, it's essential!Beatstep CV-out -> Filter-in is essential
+    as well
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3313
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3313
+- title: Tri-mover 3
+  desc: Beatstep CV-out -> Filter-in is here tooExperiment with envelope & mod wheel
+    is a must!
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3314
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3314
+- title: Growling Square Sub
+  desc: Square wave with lots of overtone and sub dialed in.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3316
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3316
+- title: YE YE BASS
+  desc: Daphne Ye Ye
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3322
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3322
+- title: Rumbly
+  desc: Nice on the lowest octave.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3323
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3323
+- title: Pulsating PINK PURSE
+  desc: Tickling envelope and throbbing LFO.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3345
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3345
+- title: CASIOMAGIC
+  desc: Decrease decay setting for a move Clavinet-like sound.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3346
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3346
+- title: SLANTED SAW
+  desc: "(LFO SYNCED TO SEQUENCER IN ORDER TO USE MIDI CLOCK SIGNAL)"
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3347
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3347
+- title: grimishSound
+  desc: patch like grime sounds 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3349
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3349
+- title: Dark bliss
+  desc: Mod 1/2 way
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3369
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3369
+- title: Wavy thing
+  desc: Used in "do you care that i believe in you?"
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3379
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3379
+- title: Siren on speed
+  desc: Use it with Beatstep [CV out -> Pitch in, 1/4]
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3398
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3398
+- title: Siren on speed 2
+  desc: Experiment with VCA Env Amt!Filter Env Amt might be useful too
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3399
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3399
+- title: Full blast
+  desc: Some phat bass, use with mod wheel on
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3400
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3400
+- title: My Test
+  desc: Testing, how can I recover?
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3415
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3415
+- title: 03 - bass flurry
+  desc: bassline
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3435
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3435
+- title: Thriller bass
+  desc: Michael Jackson
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3436
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3436
+- title: LNK-Electroggae
+  desc: MicroBrute connected to Minibrute as a slave. Load same patch on the Mini.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3449
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3449
+- title: Lead 00
+  desc: Lead for Yamaha Synth Book app.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3454
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3454
+- title: i Saw Helicopter
+  desc: Helicopter appears when you turn mod wheel up ;)
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3455
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3455
+- title: Supersaw~detuner
+  desc: I play this in A major, with the Decay and Sustain seen here, it's a slap
+    bass type sound.  By raising the Decay and Sustain simultaneously to just above
+    about 65% (and holding the notes longer) you get a rich detuned saw sound.  This
+    patch likes chorus and / or delay.  Note also that the mod wheel is controlling
+    LFO but I just leave it up to max.  Raising overtone makes it more aggressive.
+     
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3459
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3459
+- title: Square Drone
+  desc: I'm told that in the days before sequencers they had to make due with pulse
+    width mod.  This patch attempts to recreate that.  Adjusting the amount of overtone
+    in the patch is fun.  With a lot of reverb (like a cathedral preset) this makes
+    a nice drone.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3460
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3460
+- title: 303 BAssline Climb
+  desc: Start with Release and Cutoff where they are, then slowly raise each, stopping
+    release around 65% and Cutoff to nearly match Resonance.  For me, a 303 sound
+    on the Micro is all about the HPF.  As an alternative, try setting Overtone to
+    zero.  
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3461
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3461
+- title: Square Drone 2
+  desc: Add in Overtone, Metal, and Triangle as wanted, keep a key pressed.  Add a
+    lot of reverb.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3463
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3463
+- title: Talking funk lead
+  desc: Dat filter tho
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3471
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3471
+- title: sequential sine flute
+  desc: 'Beatstep''s CV out -> Pitch in, add some reverb with slightly long decay,
+    press play ;) '
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3495
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3495
+- title: Sequential Sine Flute 2
+  desc: Updated (more percussive) version of first sine flute
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3496
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3496
+- title: Inherently Violent Creature
+  desc: Self-oscillating madness. You can turn down saw to let it scream without growling.
+    Hey, and don't forget the modwheel!
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3498
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3498
+- title: Meatgrinder
+  desc: Noisecore style patch.  I play it on the lower C# to E to F# of the -1 octave.
+     As an alternative try switching to gate mode.  Use ENV amt to dial in the grind.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3502
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3502
+- title: House BASS
+  desc: CHICAGO & DETROIT CLASSICSlow lfo on filter is the thing. Control via mod
+    wheel.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3520
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3520
+- title: Faust
+  desc: Band-pass softness, short attack for taste, ENV Amt for brightness.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3524
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3524
+- title: Sarco
+  desc: 'Cutoff knob to hit sweet spot. Pedal: 1030, 1000, 1200'
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3536
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3536
+- title: Moving Filter Bass
+  desc: Selfmade Sequence
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3538
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3538
+- title: Enter Titlefff Here
+  desc: Enter your description here, offfr leave alone to have none.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3542
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3542
+- title: ZAP
+  desc: ZAP
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3544
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3544
+- title: ZAP
+  desc: ZAP
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3545
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3545
+- title: Screaming Theremin
+  desc: Gr8
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3562
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3562
+- title: Screaming Theremin
+  desc: Gr8
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3563
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3563
+- title: Screaming Theremin
+  desc: Gr8
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3564
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3564
+- title: Screaming Theremin
+  desc: Gr8
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3565
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3565
+- title: Screaming Theremin
+  desc: Gr8
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3566
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3566
+- title: Screaming Theremin
+  desc: Gr8
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3567
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3567
+- title: Screaming Theremin
+  desc: Gr8
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3568
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3568
+- title: Screaming Theremin
+  desc: Gr8
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3569
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3569
+- title: Screaming Theremin
+  desc: Gr8
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3570
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3570
+- title: Screaming Theremin
+  desc: Gr8
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3571
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3571
+- title: Vakon 01
+  desc: Hasra
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3588
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3588
+- title: mellow lead/bass
+  desc: Any octave ok.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3604
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3604
+- title: Motor Square
+  desc: Can be used as Tech Bass or as a hollow, tubular sounding Solo Synth.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3612
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3612
+- title: The Duke Arrives
+  desc: Bright synth. Use it with Beatstep (CV out -> Pitch in) & XAOC's Karl Marx
+    Stadt (preset 'Carpentercore 303')
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3617
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3617
+- title: Mr. Hyde
+  desc: Use it with Dr. Jekyll on XAOC's Karl Marx Stadt ;)
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3635
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3635
+- title: Click
+  desc: Literally just a click
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3636
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3636
+- title: Requiem
+  desc: An attempt at the keyboard in Killing Joke's Requiem.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3637
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3637
+- title: Macrosub
+  desc: This sub bass was discovered after toying with the most abrasive tear-out
+    sounds. Cut everything after 100hz with a 4-pole curve on an EQ and this patch
+    will make you fucking sick with bass weight. 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3642
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3642
+- title: Distorsion
+  desc: Best effect if the envelope trigger is by note
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3662
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3662
+- title: Analog Kick - Bombo
+  desc: Síntesis Percusiva
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3707
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3707
+- title: Tom - Analog Tom
+  desc: Síntesis Percusiva
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3708
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3708
+- title: Bombo - Analog Kick
+  desc: Síntesis Percusiva
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3709
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3709
+- title: Crystalake1
+  desc: 'To use with this one: https://www.modulargrid.net/e/patches/view/14582Beatstep
+    CV -> Pitch in'
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3715
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3715
+- title: squelch peak Bass
+  desc: finetune till ~2 squelch per env peak
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3723
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3723
+- title: Metal Bells
+  desc: Yeah, pretty metal
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3732
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3732
+- title: Snare
+  desc: Fun with sequencer. Adjust with LFO rate, amount, and mod wheel.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3733
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3733
+- title: Kick
+  desc: Sequencer. Trip on slow LFO bounce with mod wheel.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3734
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3734
+- title: Kick
+  desc: Mess with filter, envelope, lfo, metalizer, brute
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3735
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3735
+- title: High Hat
+  desc: Sequencer with rests. Mess with release and LFO.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3736
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3736
+- title: Clap thing
+  desc: Sequencer plus LFO Rate WTF. Mod to adjust.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3737
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3737
+- title: 5toned
+  desc: Guitars suckz! :PXAOC Inv out -> MB Metal in / MB LFO out -> BVCA CV1https://www.modulargrid.net/e/patches/view/14708
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3746
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3746
+- title: Paranoid
+  desc: Guitars suckz! (updated version)XAOC Inv out -> MB Metal in / MB LFO out ->
+    BVCA CV1 + Gate & CVhttps://www.modulargrid.net/e/patches/view/14708
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3751
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3751
+- title: 'Bass #1'
+  desc: Round bass, LFO on PWM
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3752
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3752
+- title: singing hihat
+  desc: start mod wheel in middleplay with env & mod
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3761
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3761
+- title: The Bells! The Bells!
+  desc: Play with BVCA bias, MB LFO & ENV amount & don't forget modwheel!MB LFO ->
+    BVCA CV1 / BVCA out -> MB Pitch in / 1v oct, gate & synchttps://www.modulargrid.net/e/patches/view/14793
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3762
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3762
+- title: MY AWESOME BASSLINE
+  desc: storm's awesome bassline
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3771
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3771
+- title: Electric Guitar
+  desc: Distorted Electric Guitar Sound from https://youtu.be/1cToL16O7Wc?t=2m5s
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3773
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3773
+- title: Filtered bass ptch
+  desc: Round subby bass, LFO controlling filter
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3779
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3779
+- title: Kati's fat bass
+  desc: Just a fat bass sound with LFO
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3782
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3782
+- title: Cold
+  desc: Dark cello-like bass. Add some hall (cathedral) reverb.C C# A# | G# F F# |
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3785
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3785
+- title: Ratchet control
+  desc: Bass to use with & control this patch:https://www.modulargrid.net/e/patches/view/14968ENV
+    -> MB Gate inPlay with VCA ENV Amt
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3786
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3786
+- title: Rise
+  desc: Mod Wheel - MAX 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3799
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3799
+- title: Lead1
+  desc: Mod Wheel - Max 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3800
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3800
+- title: Lead 1 
+  desc: Mood Wheel - Max
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3801
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3801
+- title: Efx 1 
+  desc: Mod Wheel - Max
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3804
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3804
+- title: CRAZY LEAD 
+  desc: Mod Wheel - MAX
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3816
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3816
+- title: Lead 
+  desc: Mod Wheel - Max 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3817
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3817
+- title: "'Rain' patch"
+  desc: Change the Sequencer Rate and Envelope Release as it runs for different sized
+    rain drops. 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3825
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3825
+- title: Gentle Lead
+  desc: Use Pulse Width and Metalizer for subtle timbre variations
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3833
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3833
+- title: ORGANLIKE LEAD
+  desc: Use Modwheel and LFO Rate for 'leslie' effect
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3836
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3836
+- title: Snare
+  desc: play between f and c
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3837
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3837
+- title: Brutal Bass
+  desc: Saw, triangle and overtone
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3838
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3838
+- title: Oblivion's thoughts
+  desc: Pattern is ccggccggccbbccbb, play bass strings on it.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3858
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3858
+- title: kick
+  desc: lo-g
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3876
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3876
+- title: Transmission
+  desc: Aliens are communicating via waves. Experiment with mod wheel and good quality,
+    long reverberation.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3881
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3881
+- title: Space Drum
+  desc: Pitch Mod Drum. Experiment with Metalizer amount, Brute Factor and Filter
+    ENV.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3882
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3882
+- title: Square Mover
+  desc: 'Apply some delay (preset 64, 65 in Alesis Multimix 8 works fine)Also use
+    this one with Karl Marx Stadt: https://www.modulargrid.net/e/patches/view/15440'
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3883
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3883
+- title: String Solo
+  desc: Reverb &/or delay requiredPlay with LFO amount & modwheel
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3891
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3891
+- title: Dat thriller bass
+  desc: clone
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3893
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3893
+- title: Track 4 Seq 
+  desc: Start with Triangle at 0 and introduce later on and increase release time.
+    Manipulate cutoff with Mod wheel throughout
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3907
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3907
+- title: OLGA/ODySSEY LEAD
+  desc: Ride the Mod wheel to control cutoff freq
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3912
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3912
+- title: 80s Riff basic sound
+  desc: Useful for bass or just fat riffs
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3913
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3913
+- title: gérald
+  desc: Descendre Cutoff, Env Amt, KBD Tracking. 
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3917
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3917
+- title: String Sequence
+  desc: https://www.modulargrid.net/e/patches/view/15571LFO -> PWM or Pitch; LFO ->
+    KMS Filter CV1; ENV -> KMS VCA CV2
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3924
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3924
+- title: canopy filter
+  desc: both lfo and env are going to filter on mod matrix.
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3930
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3930
+- title: Bowser
+  desc: Rubbishy guitar
+  url: !ruby/object:URI::HTTP
+    scheme: http
+    user: 
+    password: 
+    host: mbpatches.com
+    port: 80
+    path: "/micro/"
+    query: id=3943
+    opaque: 
+    fragment: 
+    parser: *1
+  id: 3943
