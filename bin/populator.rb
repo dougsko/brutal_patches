@@ -5,9 +5,14 @@ require 'nokogiri'
 @patches = []
 @patch_list = YAML.load_file('bin/patches3.yml')
 @patch_list.each do |patch_entry|
-    uri = URI(patch_entry['url'])
-    res = Net::HTTP.get_response(uri)
-    doc = Nokogiri::HTML(res.body)
+    begin
+        uri = URI(patch_entry['url'])
+        puts "getting " + patch_entry['url']
+        res = Net::HTTP.get_response(uri)
+        doc = Nokogiri::HTML(res.body)
+    rescue
+        next
+    end
 
     patch = Patch.new
 
