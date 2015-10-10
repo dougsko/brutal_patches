@@ -51,6 +51,11 @@ GEM
       elasticsearch-transport (= 1.0.7)
     elasticsearch-api (1.0.7)
       multi_json
+    elasticsearch-model (0.1.7)
+      activesupport (> 3)
+      elasticsearch (> 0.4)
+      hashie
+    elasticsearch-rails (0.1.7)
     elasticsearch-transport (1.0.7)
       faraday
       multi_json
@@ -174,6 +179,8 @@ PLATFORMS
 DEPENDENCIES
   bonsai-elasticsearch-rails
   coffee-rails (~> 4.1.0)
+  elasticsearch-model
+  elasticsearch-rails
   foundation-rails
   jbuilder (~> 2.0)
   jquery-cookie-rails
