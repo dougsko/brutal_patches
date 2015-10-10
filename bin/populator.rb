@@ -52,6 +52,11 @@ require 'nokogiri'
     patch.play = doc.css("input[name='t6']")[0]["value"]
     patch.rate_2 = doc.css("input[name='k20']")[0]["value"]
 
-    patch.save
+    begin
+        patch.save
+    rescue
+        puts "failed saving " + patch.title
+    end
+
 end
 
