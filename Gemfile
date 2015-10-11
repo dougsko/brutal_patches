@@ -28,6 +28,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'searchkick'
+gem 'typhoeus'
 #gem 'bonsai-elasticsearch-rails'
 gem 'elasticsearch-model'
 #gem 'elasticsearch-rails'
