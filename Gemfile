@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.1'
 # Use jdbcsqlite3 as the database for Active Record
 #gem 'activerecord-jdbcsqlite3-adapter'
-#gem 'sqlite3'
+gem 'sqlite3'
 gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -28,9 +28,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'searchkick'
-gem 'bonsai-elasticsearch-rails'
+#gem 'bonsai-elasticsearch-rails'
 gem 'elasticsearch-model'
-gem 'elasticsearch-rails'
+#gem 'elasticsearch-rails'
 
 gem 'rails_12factor', group: :production
 
