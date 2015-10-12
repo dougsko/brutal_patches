@@ -339,11 +339,13 @@ $(document).ready(function () {
     </div>
 
     <div class="row">
-        <p>Tags:&nbsp;
-        <% @patch.tags.each do |tag| %>
-            <span class="tag"><%= tag %>&nbsp;</span>
+        <% if @patch.tag_list.size > 0 %>
+            <p>Tags:&nbsp;
+            <% @patch.tags.each do |tag| %>
+                <span class="tag"><%= tag %>&nbsp;</span>
+            <% end %>
+            </p>
         <% end %>
-        </p>
     </div>
 
 
