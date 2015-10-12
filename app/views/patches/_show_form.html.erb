@@ -337,6 +337,16 @@ $(document).ready(function () {
         <h2 id="title-text"><%= @patch.title %></h2>
         <p id="description-text"><%= @patch.description %></p>
     </div>
+
+    <div class="row">
+        <p>Tags:&nbsp;
+        <% @patch.tags.each do |tag| %>
+            <span class="tag"><%= tag %>&nbsp;</span>
+        <% end %>
+        </p>
+    </div>
+
+
     <div class="row">
         <div class="column">
             <%= link_to 'Back', patches_path, {id: "patch-new"} %>

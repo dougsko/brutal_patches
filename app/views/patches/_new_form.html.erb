@@ -297,10 +297,12 @@
         </div><!-- /Row-->
     </div><!-- /Patch-->
     <div id="meta-info">
-        <h2 id="title-text" class="editable" contenteditable="true">Enter Title Here</h2>
-        <p id="description-text" class="editable" contenteditable="true">Enter your description here, or leave alone to have none.</p>
+        <h2 id="title-text" class="editable" contenteditable="true">Title</h2>
+        <p id="description-text" class="editable" contenteditable="true">Description</p>
+        <p id="tag-text" class="editable" contenteditable="true">Comma separated tags</p>
         <%= f.hidden_field :title  , { id: "title-input", value: "#{@patch.id}" }%>
         <%= f.hidden_field :description  , { id: "description-input", value: "#{@patch.description}" }%>
+        <%= f.hidden_field :tag_list , { id: "tag-list-input", value: "#{@patch.tag_list}" }%>
     </div>
     <%= submit_tag("Save", {id: "patch-save"}) %>
     <%= link_to 'Back', patches_path, {id: "patch-new"} %>

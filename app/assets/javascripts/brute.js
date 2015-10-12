@@ -35,6 +35,7 @@ $(document).ready(function () {
     //Get content editable content
     var initialTitle = $('#title-text').html();
     var initialDesc = $('#description-text').html();
+    var initialTags = $('#tag-text').html();
     //console.log(initialTitle, initialDesc);
     //Submit button stuff
     var request;
@@ -61,11 +62,15 @@ $(document).ready(function () {
         //Add Title and Description
         var recievedTitle = $('#title-text').html();
         var recievedDesc = $('#description-text').html();
+        var receivedTags = $('#tag-text').html();
         if (recievedTitle  != initialTitle ){
             $('#title-input').val(recievedTitle);
         }
         if (recievedDesc != initialDesc ){
             $('#description-input').val(recievedDesc);
+        }
+        if(receivedTags != initialTags ) {
+            $('#tag-list-input').val(receivedTags);
         }
         // abort any pending request
         if (request) {

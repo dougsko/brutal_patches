@@ -9,7 +9,7 @@ class PatchesController < ApplicationController
         else
             #@patches = Patch.all.order(created_at: :desc, average_rating: :desc)
             #@patches = Patch.all.order(created_at: :desc).page(params[:page])
-            @patches = Patch.order(created_at: :desc).page(params[:page])
+            @patches = Patch.order(created_at: :desc).order(average_rating: :desc).page(params[:page])
         end
         render layout: "patch_index"
 =begin
@@ -84,6 +84,10 @@ class PatchesController < ApplicationController
         end
         #puts @patches
         render layout: "patch_index"
+    end
+
+    def tag_cloud
+        @tags = Patch.tag_counts_on(:tags)
     end
 
     private
