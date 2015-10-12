@@ -8,6 +8,13 @@ class Patch < ActiveRecord::Base
 
     paginates_per 50
 
+    acts_as_taggable # Alias for acts_as_taggable_on :tags
+    acts_as_taggable_on :tags
+
+    def search_data
+        attributes.merge(tags_name: tags.map(&:name))
+    end
+
     private 
     def update_title
         if self.title == ""

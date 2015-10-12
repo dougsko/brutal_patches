@@ -54,3 +54,4 @@ gem 'kaminari'
 gem 'jquery-infinite-pages'
 gem 'foundation-rails'
 
+gem 'acts-as-taggable-on'

@@ -94,6 +94,6 @@ class PatchesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def patch_params
-        params.require(:patch).permit(:title, :description, :sub_fifth, :overtone, :ultra_saw, :saw, :pulse_width, :square, :metalizer, :triangle, :cutoff, :mode, :resonance, :env_amt, :brute_factor, :kbd_tracking, :modmatrix, :octave, :volume, :glide, :mod_wheel, :amount, :wave, :rate, :sync, :env_amt_2, :vca, :attack, :decay, :sustain, :release, :pattern, :play, :rate_2)
+        params.require(:patch).permit(:title, :description, :sub_fifth, :overtone, :ultra_saw, :saw, :pulse_width, :square, :metalizer, :triangle, :cutoff, :mode, :resonance, :env_amt, :brute_factor, :kbd_tracking, :modmatrix, :octave, :volume, :glide, :mod_wheel, :amount, :wave, :rate, :sync, :env_amt_2, :vca, :attack, :decay, :sustain, :release, :pattern, :play, :rate_2, :tag_list)
     end
 end
