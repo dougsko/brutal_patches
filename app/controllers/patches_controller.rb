@@ -67,6 +67,7 @@ class PatchesController < ApplicationController
 
     # DELETE /patches/1
     # DELETE /patches/1.json
+=begin
     def destroy
         @patch.destroy
         respond_to do |format|
@@ -74,6 +75,7 @@ class PatchesController < ApplicationController
             format.json { head :no_content }
         end
     end
+=end
 
     # GET /patches/favs
     def favs
