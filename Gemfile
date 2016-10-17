@@ -1,9 +1,9 @@
-ruby "2.2.4"
+#ruby "2.2.4"
 source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.1'
+gem 'rails' #, '4.2.1'
 # Use jdbcsqlite3 as the database for Active Record
 #gem 'activerecord-jdbcsqlite3-adapter'
 #gem 'sqlite3'
@@ -56,3 +56,4 @@ gem 'jquery-infinite-pages'
 gem 'foundation-rails'
 
 gem 'acts-as-taggable-on'
+gem 'heroku-deflater', :group => :production
