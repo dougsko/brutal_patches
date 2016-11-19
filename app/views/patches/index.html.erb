@@ -47,7 +47,7 @@
     <div class="small-12 columns">
         <% unless @patches.current_page == @patches.total_pages %>
             <p id="view-more">
-            <%= link_to('View More', url_for(page: @patches.current_page + 1), remote: true) %>
+                <%= link_to('View More', url_for(page: @patches.current_page + 1), remote: true) %>
             </p>
         <% end %>
         <!--< paginate @patches, :remote => true > -->
