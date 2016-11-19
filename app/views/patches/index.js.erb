@@ -1,0 +1,7 @@
+$('#content').append("<%=j render(partial: 'patch', object: @patches) %>");
+
+<% if @patches.current_page == @patches.total_pages %>
+      $('#view-more').remove();
+<% else %>
+    $('#view-more a').attr('href', '<%= url_for(page: @patches.current_page + 1) %>');
+<% end %>
