@@ -29,7 +29,7 @@
 <div class="row">
     <div class="small-12 columns">
         <div class="infinite-table">
-            <table>
+            <table id="content">
                 <tbody class="page">
                     <tr>
                         <th>Rating</th>
@@ -45,7 +45,12 @@
 
 <div class="row">
     <div class="small-12 columns">
-        <%= paginate @patches, :remote => true %>
+        <% unless @patches.current_page == @patches.total_pages %>
+            <p id="view-more">
+            <%= link_to('View More', url_for(page: @patches.current_page + 1), remote: true) %>
+            </p>
+        <% end %>
+        <!--< paginate @patches, :remote => true > -->
     </div>
 </div>
 
