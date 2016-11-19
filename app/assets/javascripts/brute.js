@@ -159,7 +159,7 @@ $(document).ready(function () {
     var cookie = $.cookie('favs');
     var favs = cookie ? cookie.split(/,/) : new Array();
     var patch_id = $("#patch").attr('data-patch-id');
-    console.log(favs);
+    //console.log(favs);
     if($.inArray(patch_id, favs) >= 0) {
         $("[name='favorite']").attr('checked', true);
     }

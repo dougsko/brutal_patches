@@ -31,6 +31,11 @@
         <div class="infinite-table">
             <table>
                 <tbody class="page">
+                    <tr>
+                        <th>Rating</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                    </tr>
                     <%= render :partial => 'patch', :object => @patches %>
                 </tbody>
             </table>
@@ -40,7 +45,6 @@
 
 <div class="row">
     <div class="small-12 columns">
-        <!-- < #link_to_next_page(@patches, 'Next Page', :remote => true) > -->
         <%= paginate @patches, :remote => true %>
     </div>
 </div>

@@ -52,7 +52,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'kaminari'
-gem 'jquery-infinite-pages'
 gem 'foundation-rails'
 
 gem 'acts-as-taggable-on'
